@@ -47,6 +47,7 @@
   ;; only used once, so assuming V has no side effects
   `(case ,result
      (0 :success)
+     (-1000001004 :ERROR-OUT-OF-DATE-KHR)
      ,@(loop for k in (foreign-enum-keyword-list 'result)
              for ctype = (or (find-symbol (symbol-name k)) t)
              for v = (foreign-enum-value 'result k)

@@ -77,6 +77,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-4444-formats-extension-name+ "VK_EXT_4444_formats"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_4444_formats](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_4444_formats.html).")
+(alexandria:define-constant +ext-acquire-drm-display-extension-name+ "VK_EXT_acquire_drm_display"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_acquire_drm_display](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_acquire_drm_display.html).")
 (alexandria:define-constant +ext-acquire-xlib-display-extension-name+ "VK_EXT_acquire_xlib_display"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_acquire_xlib_display](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_acquire_xlib_display.html).")
@@ -86,6 +89,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-blend-operation-advanced-extension-name+ "VK_EXT_blend_operation_advanced"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_blend_operation_advanced](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_blend_operation_advanced.html).")
+(alexandria:define-constant +ext-border-color-swizzle-extension-name+ "VK_EXT_border_color_swizzle"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_border_color_swizzle](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_border_color_swizzle.html).")
 (alexandria:define-constant +ext-buffer-device-address-extension-name+ "VK_EXT_buffer_device_address"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_buffer_device_address](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_buffer_device_address.html).")
@@ -170,6 +176,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-global-priority-extension-name+ "VK_EXT_global_priority"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_global_priority](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_global_priority.html).")
+(alexandria:define-constant +ext-global-priority-query-extension-name+ "VK_EXT_global_priority_query"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_global_priority_query](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_global_priority_query.html).")
 (alexandria:define-constant +ext-hdr-metadata-extension-name+ "VK_EXT_hdr_metadata"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_hdr_metadata](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_hdr_metadata.html).")
@@ -194,6 +203,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-line-rasterization-extension-name+ "VK_EXT_line_rasterization"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_line_rasterization](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_line_rasterization.html).")
+(alexandria:define-constant +ext-load-store-op-none-extension-name+ "VK_EXT_load_store_op_none"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_load_store_op_none](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_load_store_op_none.html).")
 (alexandria:define-constant +ext-memory-budget-extension-name+ "VK_EXT_memory_budget"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_memory_budget](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_memory_budget.html).")
@@ -203,9 +215,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-metal-surface-extension-name+ "VK_EXT_metal_surface"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_metal_surface](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_metal_surface.html).")
+(alexandria:define-constant +ext-multi-draw-extension-name+ "VK_EXT_multi_draw"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_multi_draw](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_multi_draw.html).")
+(alexandria:define-constant +ext-pageable-device-local-memory-extension-name+ "VK_EXT_pageable_device_local_memory"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_pageable_device_local_memory](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_pageable_device_local_memory.html).")
 (alexandria:define-constant +ext-pci-bus-info-extension-name+ "VK_EXT_pci_bus_info"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_pci_bus_info](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_pci_bus_info.html).")
+(alexandria:define-constant +ext-physical-device-drm-extension-name+ "VK_EXT_physical_device_drm"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_physical_device_drm](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_physical_device_drm.html).")
 (alexandria:define-constant +ext-pipeline-creation-cache-control-extension-name+ "VK_EXT_pipeline_creation_cache_control"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_pipeline_creation_cache_control](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_pipeline_creation_cache_control.html).")
@@ -215,6 +236,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-post-depth-coverage-extension-name+ "VK_EXT_post_depth_coverage"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_post_depth_coverage](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_post_depth_coverage.html).")
+(alexandria:define-constant +ext-primitive-topology-list-restart-extension-name+ "VK_EXT_primitive_topology_list_restart"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_primitive_topology_list_restart](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_primitive_topology_list_restart.html).")
 (alexandria:define-constant +ext-private-data-extension-name+ "VK_EXT_private_data"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_private_data](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_private_data.html).")
@@ -224,6 +248,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-queue-family-foreign-extension-name+ "VK_EXT_queue_family_foreign"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_queue_family_foreign](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_queue_family_foreign.html).")
+(alexandria:define-constant +ext-rgba10x6-formats-extension-name+ "VK_EXT_rgba10x6_formats"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_rgba10x6_formats](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_rgba10x6_formats.html).")
 (alexandria:define-constant +ext-robustness-2-extension-name+ "VK_EXT_robustness2"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_robustness2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_robustness2.html).")
@@ -239,6 +266,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-separate-stencil-usage-extension-name+ "VK_EXT_separate_stencil_usage"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_separate_stencil_usage](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_separate_stencil_usage.html).")
+(alexandria:define-constant +ext-shader-atomic-float-2-extension-name+ "VK_EXT_shader_atomic_float2"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_shader_atomic_float2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_shader_atomic_float2.html).")
 (alexandria:define-constant +ext-shader-atomic-float-extension-name+ "VK_EXT_shader_atomic_float"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_shader_atomic_float](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_shader_atomic_float.html).")
@@ -302,12 +332,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +ext-video-encode-h264-extension-name+ "VK_EXT_video_encode_h264"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_video_encode_h264](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_video_encode_h264.html).")
+(alexandria:define-constant +ext-video-encode-h265-extension-name+ "VK_EXT_video_encode_h265"
+  :test #'string=
+  :documentation "The name of the extension [VK_EXT_video_encode_h265](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_video_encode_h265.html).")
 (alexandria:define-constant +ext-ycbcr-2plane-444-formats-extension-name+ "VK_EXT_ycbcr_2plane_444_formats"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_ycbcr_2plane_444_formats](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_ycbcr_2plane_444_formats.html).")
 (alexandria:define-constant +ext-ycbcr-image-arrays-extension-name+ "VK_EXT_ycbcr_image_arrays"
   :test #'string=
   :documentation "The name of the extension [VK_EXT_ycbcr_image_arrays](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_EXT_ycbcr_image_arrays.html).")
+(alexandria:define-constant +fuchsia-buffer-collection-extension-name+ "VK_FUCHSIA_buffer_collection"
+  :test #'string=
+  :documentation "The name of the extension [VK_FUCHSIA_buffer_collection](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_FUCHSIA_buffer_collection.html).")
 (alexandria:define-constant +fuchsia-external-memory-extension-name+ "VK_FUCHSIA_external_memory"
   :test #'string=
   :documentation "The name of the extension [VK_FUCHSIA_external_memory](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_FUCHSIA_external_memory.html).")
@@ -329,12 +365,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +google-display-timing-extension-name+ "VK_GOOGLE_display_timing"
   :test #'string=
   :documentation "The name of the extension [VK_GOOGLE_display_timing](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_GOOGLE_display_timing.html).")
-(alexandria:define-constant +google-hlsl-functionality1-extension-name+ "VK_GOOGLE_hlsl_functionality1"
+(alexandria:define-constant +google-hlsl-functionality-1-extension-name+ "VK_GOOGLE_hlsl_functionality1"
   :test #'string=
   :documentation "The name of the extension [VK_GOOGLE_hlsl_functionality1](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_GOOGLE_hlsl_functionality1.html).")
 (alexandria:define-constant +google-user-type-extension-name+ "VK_GOOGLE_user_type"
   :test #'string=
   :documentation "The name of the extension [VK_GOOGLE_user_type](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_GOOGLE_user_type.html).")
+(alexandria:define-constant +huawei-invocation-mask-extension-name+ "VK_HUAWEI_invocation_mask"
+  :test #'string=
+  :documentation "The name of the extension [VK_HUAWEI_invocation_mask](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_HUAWEI_invocation_mask.html).")
+(alexandria:define-constant +huawei-subpass-shading-extension-name+ "VK_HUAWEI_subpass_shading"
+  :test #'string=
+  :documentation "The name of the extension [VK_HUAWEI_subpass_shading](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_HUAWEI_subpass_shading.html).")
 (alexandria:define-constant +img-filter-cubic-extension-name+ "VK_IMG_filter_cubic"
   :test #'string=
   :documentation "The name of the extension [VK_IMG_filter_cubic](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_IMG_filter_cubic.html).")
@@ -401,6 +443,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +khr-driver-properties-extension-name+ "VK_KHR_driver_properties"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_driver_properties](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_driver_properties.html).")
+(alexandria:define-constant +khr-dynamic-rendering-extension-name+ "VK_KHR_dynamic_rendering"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_dynamic_rendering](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_dynamic_rendering.html).")
 (alexandria:define-constant +khr-external-fence-capabilities-extension-name+ "VK_KHR_external_fence_capabilities"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_external_fence_capabilities](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_external_fence_capabilities.html).")
@@ -437,6 +482,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +khr-external-semaphore-win32-extension-name+ "VK_KHR_external_semaphore_win32"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_external_semaphore_win32](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_external_semaphore_win32.html).")
+(alexandria:define-constant +khr-format-feature-flags-2-extension-name+ "VK_KHR_format_feature_flags2"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_format_feature_flags2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_format_feature_flags2.html).")
 (alexandria:define-constant +khr-fragment-shading-rate-extension-name+ "VK_KHR_fragment_shading_rate"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_fragment_shading_rate](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_fragment_shading_rate.html).")
@@ -461,15 +509,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +khr-incremental-present-extension-name+ "VK_KHR_incremental_present"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_incremental_present](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_incremental_present.html).")
-(alexandria:define-constant +khr-maintenance1-extension-name+ "VK_KHR_maintenance1"
+(alexandria:define-constant +khr-maintenance-1-extension-name+ "VK_KHR_maintenance1"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_maintenance1](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_maintenance1.html).")
-(alexandria:define-constant +khr-maintenance2-extension-name+ "VK_KHR_maintenance2"
+(alexandria:define-constant +khr-maintenance-2-extension-name+ "VK_KHR_maintenance2"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_maintenance2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_maintenance2.html).")
-(alexandria:define-constant +khr-maintenance3-extension-name+ "VK_KHR_maintenance3"
+(alexandria:define-constant +khr-maintenance-3-extension-name+ "VK_KHR_maintenance3"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_maintenance3](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_maintenance3.html).")
+(alexandria:define-constant +khr-maintenance-4-extension-name+ "VK_KHR_maintenance4"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_maintenance4](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_maintenance4.html).")
 (alexandria:define-constant +khr-multiview-extension-name+ "VK_KHR_multiview"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_multiview](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_multiview.html).")
@@ -485,6 +536,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +khr-portability-subset-extension-name+ "VK_KHR_portability_subset"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_portability_subset](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_portability_subset.html).")
+(alexandria:define-constant +khr-present-id-extension-name+ "VK_KHR_present_id"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_present_id](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_present_id.html).")
+(alexandria:define-constant +khr-present-wait-extension-name+ "VK_KHR_present_wait"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_present_wait](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_present_wait.html).")
 (alexandria:define-constant +khr-push-descriptor-extension-name+ "VK_KHR_push_descriptor"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_push_descriptor](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_push_descriptor.html).")
@@ -521,12 +578,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +khr-shader-float-controls-extension-name+ "VK_KHR_shader_float_controls"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_shader_float_controls](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_float_controls.html).")
+(alexandria:define-constant +khr-shader-integer-dot-product-extension-name+ "VK_KHR_shader_integer_dot_product"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_shader_integer_dot_product](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_integer_dot_product.html).")
 (alexandria:define-constant +khr-shader-non-semantic-info-extension-name+ "VK_KHR_shader_non_semantic_info"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_shader_non_semantic_info](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_non_semantic_info.html).")
 (alexandria:define-constant +khr-shader-subgroup-extended-types-extension-name+ "VK_KHR_shader_subgroup_extended_types"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_shader_subgroup_extended_types](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_subgroup_extended_types.html).")
+(alexandria:define-constant +khr-shader-subgroup-uniform-control-flow-extension-name+ "VK_KHR_shader_subgroup_uniform_control_flow"
+  :test #'string=
+  :documentation "The name of the extension [VK_KHR_shader_subgroup_uniform_control_flow](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_subgroup_uniform_control_flow.html).")
 (alexandria:define-constant +khr-shader-terminate-invocation-extension-name+ "VK_KHR_shader_terminate_invocation"
   :test #'string=
   :documentation "The name of the extension [VK_KHR_shader_terminate_invocation](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_KHR_shader_terminate_invocation.html).")
@@ -605,6 +668,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +nn-vi-surface-extension-name+ "VK_NN_vi_surface"
   :test #'string=
   :documentation "The name of the extension [VK_NN_vi_surface](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NN_vi_surface.html).")
+(alexandria:define-constant +nvx-binary-import-extension-name+ "VK_NVX_binary_import"
+  :test #'string=
+  :documentation "The name of the extension [VK_NVX_binary_import](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NVX_binary_import.html).")
 (alexandria:define-constant +nvx-image-view-handle-extension-name+ "VK_NVX_image_view_handle"
   :test #'string=
   :documentation "The name of the extension [VK_NVX_image_view_handle](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NVX_image_view_handle.html).")
@@ -650,6 +716,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +nv-external-memory-extension-name+ "VK_NV_external_memory"
   :test #'string=
   :documentation "The name of the extension [VK_NV_external_memory](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_external_memory.html).")
+(alexandria:define-constant +nv-external-memory-rdma-extension-name+ "VK_NV_external_memory_rdma"
+  :test #'string=
+  :documentation "The name of the extension [VK_NV_external_memory_rdma](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_external_memory_rdma.html).")
 (alexandria:define-constant +nv-external-memory-win32-extension-name+ "VK_NV_external_memory_win32"
   :test #'string=
   :documentation "The name of the extension [VK_NV_external_memory_win32](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_external_memory_win32.html).")
@@ -683,6 +752,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +nv-ray-tracing-extension-name+ "VK_NV_ray_tracing"
   :test #'string=
   :documentation "The name of the extension [VK_NV_ray_tracing](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_ray_tracing.html).")
+(alexandria:define-constant +nv-ray-tracing-motion-blur-extension-name+ "VK_NV_ray_tracing_motion_blur"
+  :test #'string=
+  :documentation "The name of the extension [VK_NV_ray_tracing_motion_blur](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_ray_tracing_motion_blur.html).")
 (alexandria:define-constant +nv-representative-fragment-test-extension-name+ "VK_NV_representative_fragment_test"
   :test #'string=
   :documentation "The name of the extension [VK_NV_representative_fragment_test](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_representative_fragment_test.html).")
@@ -704,7 +776,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (alexandria:define-constant +nv-shading-rate-image-extension-name+ "VK_NV_shading_rate_image"
   :test #'string=
   :documentation "The name of the extension [VK_NV_shading_rate_image](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_shading_rate_image.html).")
-(alexandria:define-constant +nv-viewport-array2-extension-name+ "VK_NV_viewport_array2"
+(alexandria:define-constant +nv-viewport-array-2-extension-name+ "VK_NV_viewport_array2"
   :test #'string=
   :documentation "The name of the extension [VK_NV_viewport_array2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/man/html/VK_NV_viewport_array2.html).")
 (alexandria:define-constant +nv-viewport-swizzle-extension-name+ "VK_NV_viewport_swizzle"
@@ -744,28 +816,34 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defctype device-address :uint64)
 
+(defctype remote-address-nv :pointer)
+
 (defctype handle :pointer)
 #.(if (= 8 (foreign-type-size :pointer))
   '(defctype non-dispatch-handle :pointer)
   '(defctype non-dispatch-handle :uint64))
 
-(defctype a-native-window :void)
+(defctype a-native-window :pointer)
 
-(defctype a-hardware-buffer :void)
+(defctype a-hardware-buffer :pointer)
 
-(defctype mir-connection :void)
+(defctype mir_connection :pointer)
 
-(defctype mir-surface :void)
+(defctype mir_surface :pointer)
 
-(defctype xcb_connection_t :void)
+(defctype xcb_connection_t :pointer)
 
-(defctype i-direct-fb :void)
+(defctype i-direct-fb :pointer)
 
-(defctype i-direct-fb-surface :void)
+(defctype i-direct-fb-surface :pointer)
 
-(defctype ca-metal-layer :void)
+(defctype ca-metal-layer :pointer)
 
-(defctype display :void)
+(defctype display :pointer)
+
+(defctype wl_display :pointer)
+
+(defctype wl_surface :pointer)
 
 (defctype ggp-stream-descriptor (:pointer :void))
 
@@ -797,11 +875,35 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defctype std-video-h264-profile-idc :uint32)
 
+(defctype std-video-h264-mem-mgmt-control-op :uint32)
+
+(defctype std-video-h264-modification-of-pic-nums-idc :uint32)
+
+(defctype std-video-h264-picture-type :uint32)
+
+(defctype std-video-h264-disable-deblocking-filter-idc :uint32)
+
+(defctype std-video-h264-cabac-init-idc :uint32)
+
+(defctype std-video-h264-slice-type :uint32)
+
+(defctype std-video-h264-weighted-bipred-idc :uint32)
+
+(defctype std-video-h264-aspect-ratio-idc :uint32)
+
+(defctype std-video-h264-poc-type :uint32)
+
+(defctype std-video-h264-chroma-format-idc :uint32)
+
+(defctype std-video-h264-level :uint32)
+
 (defctype std-video-h265-profile-idc :uint32)
 
-(defcstruct wl_display)
+(defctype std-video-h265-picture-type :uint32)
 
-(defcstruct wl_surface)
+(defctype std-video-h265-slice-type :uint32)
+
+(defctype std-video-h265-level :uint32)
 
 (defcstruct security_attributes)
 
@@ -823,15 +925,91 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defcstruct std-video-encode-h264-picture-info)
 
+(defcstruct std-video-encode-h264-ref-pic-marking-entry)
+
+(defcstruct std-video-encode-h264-ref-list-mod-entry)
+
+(defcstruct std-video-encode-h264-ref-mgmt-flags)
+
+(defcstruct std-video-encode-h264-picture-info-flags)
+
+(defcstruct std-video-encode-h264-ref-mem-mgmt-ctrl-operations)
+
+(defcstruct std-video-encode-h264-slice-header-flags)
+
+(defcstruct std-video-encode-h265-reference-modification-flags)
+
+(defcstruct std-video-encode-h265-reference-info-flags)
+
+(defcstruct std-video-encode-h265-slice-header-flags)
+
+(defcstruct std-video-encode-h265-reference-modifications)
+
+(defcstruct std-video-encode-h265-reference-info)
+
+(defcstruct std-video-encode-h265-slice-header)
+
+(defcstruct std-video-encode-h265-slice-segment-header)
+
+(defcstruct std-video-encode-h265-picture-info)
+
+(defcstruct std-video-encode-h265-picture-info-flags)
+
+(defcstruct std-video-decode-h264-mvc-element-flags)
+
+(defcstruct std-video-decode-h264-mvc-element)
+
+(defcstruct std-video-decode-h264-reference-info-flags)
+
+(defcstruct std-video-decode-h264-picture-info-flags)
+
 (defcstruct std-video-decode-h265-picture-info)
 
 (defcstruct std-video-decode-h265-reference-info)
+
+(defcstruct std-video-decode-h265-reference-info-flags)
+
+(defcstruct std-video-decode-h265-picture-info-flags)
+
+(defcstruct std-video-h264-pps-flags)
+
+(defcstruct std-video-h264-sps-vui-flags)
+
+(defcstruct std-video-h264-hrd-parameters)
+
+(defcstruct std-video-h264-sequence-parameter-set-vui)
+
+(defcstruct std-video-h264-scaling-lists)
+
+(defcstruct std-video-h264-sps-flags)
 
 (defcstruct std-video-h265-video-parameter-set)
 
 (defcstruct std-video-h265-sequence-parameter-set)
 
 (defcstruct std-video-h265-picture-parameter-set)
+
+(defcstruct std-video-h265-sps-vui-flags)
+
+(defcstruct std-video-h265-hrd-flags)
+
+(defcstruct std-video-h265-sub-layer-hrd-parameters)
+
+(defcstruct std-video-h265-pps-flags)
+
+(defcstruct std-video-h265-predictor-palette-entries)
+
+(defcstruct std-video-h265-sequence-parameter-set-vui)
+
+(defcstruct std-video-h265-scaling-lists)
+
+(defcstruct std-video-h265-sps-flags)
+
+(defcstruct std-video-h265-vps-flags)
+
+(defcstruct std-video-h265-hrd-parameters)
+
+(defcstruct std-video-h265-dec-pic-buf-mgr)
 
 (defctype instance handle)
 
@@ -901,9 +1079,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defctype performance-configuration-intel non-dispatch-handle)
 
+(defctype buffer-collection-fuchsia non-dispatch-handle)
+
 (defctype deferred-operation-khr non-dispatch-handle)
 
 (defctype private-data-slot-ext non-dispatch-handle)
+
+(defctype cu-module-nvx non-dispatch-handle)
+
+(defctype cu-function-nvx non-dispatch-handle)
 
 (defctype display-khr non-dispatch-handle)
 
@@ -991,7 +1175,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:lazily-allocated #x10) ;; Memory may be allocated by the driver when it is required
   (:protected #x20) ;; 
   (:device-coherent #x40) ;; 
-  (:device-uncached #x80)) ;; 
+  (:device-uncached #x80) ;; 
+  (:rdma-capable #x100)) ;; 
 
 (defbitfield (memory-heap-flags flags)
   (:device-local #x1) ;; If set, heap represents device memory
@@ -1022,7 +1207,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:conditional-rendering-read #x100000) ;; 
   (:acceleration-structure-read #x200000) ;; 
   (:acceleration-structure-write #x400000) ;; 
-  (:shading-rate-image-read #x800000) ;; 
+  (:fragment-shading-rate-attachment-read #x800000) ;; 
   (:fragment-density-map-read #x1000000) ;; 
   (:transform-feedback-write #x2000000) ;; 
   (:transform-feedback-counter-read #x4000000) ;; 
@@ -1073,6 +1258,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:miss #x800) ;; 
   (:intersection #x1000) ;; 
   (:callable #x2000) ;; 
+  (:subpass-shading #x4000) ;; 
   (:all #x7FFFFFFF))
 
 (defbitfield (image-usage-flags flags)
@@ -1084,14 +1270,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:depth-stencil-attachment #x20) ;; Can be used as framebuffer depth/stencil attachment
   (:transient-attachment #x40) ;; Image data not needed outside of rendering
   (:input-attachment #x80) ;; Can be used as framebuffer input attachment
-  (:shading-rate-image #x100) ;; 
+  (:fragment-shading-rate-attachment #x100) ;; 
   (:fragment-density-map #x200) ;; 
   (:video-decode-dst #x400) ;; 
   (:video-decode-src #x800) ;; 
   (:video-decode-dpb #x1000) ;; 
   (:video-encode-dst #x2000) ;; 
   (:video-encode-src #x4000) ;; 
-  (:video-encode-dpb #x8000)) ;; 
+  (:video-encode-dpb #x8000) ;; 
+  (:invocation-mask #x40000)) ;; 
 
 (defbitfield (image-create-flags flags)
   (:sparse-binding #x1) ;; Image should support sparse backing
@@ -1133,7 +1320,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:ray-tracing-no-null-miss-shaders #x10000) ;; 
   (:ray-tracing-no-null-intersection-shaders #x20000) ;; 
   (:indirect-bindable #x40000) ;; 
-  (:ray-tracing-shader-group-handle-capture-replay #x80000)) ;; 
+  (:ray-tracing-shader-group-handle-capture-replay #x80000) ;; 
+  (:ray-tracing-allow-motion #x100000) ;; 
+  (:vk-pipeline-rasterization-state-create-fragment-shading-rate-attachment #x200000) ;; 
+  (:vk-pipeline-rasterization-state-create-fragment-density-map-attachment #x400000)) ;; 
 
 (defbitfield (color-component-flags flags)
   (:r #x1)
@@ -1276,7 +1466,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:task-shader #x80000) ;; 
   (:mesh-shader #x100000) ;; 
   (:ray-tracing-shader #x200000) ;; 
-  (:shading-rate-image #x400000) ;; 
+  (:fragment-shading-rate-attachment #x400000) ;; 
   (:fragment-density-process #x800000) ;; 
   (:transform-feedback #x1000000) ;; 
   (:acceleration-structure-build #x2000000)) ;; 
@@ -1345,13 +1535,13 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defbitfield (geometry-instance-flags-khr flags)
   (:triangle-facing-cull-disable #x1)
-  (:triangle-front-counterclockwise #x2)
+  (:triangle-flip-facing #x2)
   (:force-opaque #x4)
   (:force-no-opaque #x8))
 
 (defbitfield (geometry-instance-flags-nv flags)
   (:triangle-facing-cull-disable #x1)
-  (:triangle-front-counterclockwise #x2)
+  (:triangle-flip-facing #x2)
   (:force-opaque #x4)
   (:force-no-opaque #x8))
 
@@ -1360,19 +1550,22 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:allow-compaction #x2)
   (:prefer-fast-trace #x4)
   (:prefer-fast-build #x8)
-  (:low-memory #x10))
+  (:low-memory #x10)
+  (:motion #x20)) ;; 
 
 (defbitfield (build-acceleration-structure-flags-nv flags)
   (:allow-update #x1)
   (:allow-compaction #x2)
   (:prefer-fast-trace #x4)
   (:prefer-fast-build #x8)
-  (:low-memory #x10))
+  (:low-memory #x10)
+  (:motion #x20)) ;; 
 
 (defbitfield (private-data-slot-create-flags-ext flags))
 
 (defbitfield (acceleration-structure-create-flags-khr flags)
-  (:device-address-capture-replay #x1))
+  (:device-address-capture-replay #x1)
+  (:motion #x4)) ;; 
 
 (defbitfield (descriptor-update-template-create-flags flags))
 
@@ -1405,80 +1598,128 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:enable-automatic-checkpoints #x4))
 
 (defbitfield (access-flags-2-khr flags-64)
-  (:2-none-khr #x0)
-  (:2-indirect-command-read #x1)
-  (:2-index-read #x2)
-  (:2-vertex-attribute-read #x4)
-  (:2-uniform-read #x8)
-  (:2-input-attachment-read #x10)
-  (:2-shader-read #x20)
-  (:2-shader-write #x40)
-  (:2-color-attachment-read #x80)
-  (:2-color-attachment-write #x100)
-  (:2-depth-stencil-attachment-read #x200)
-  (:2-depth-stencil-attachment-write #x400)
-  (:2-transfer-read #x800)
-  (:2-transfer-write #x1000)
-  (:2-host-read #x2000)
-  (:2-host-write #x4000)
-  (:2-memory-read #x8000)
-  (:2-memory-write #x10000)
-  (:2-command-preprocess-read #x20000) ;; 
-  (:2-command-preprocess-write #x40000) ;; 
-  (:2-color-attachment-read-noncoherent #x80000) ;; 
-  (:2-conditional-rendering-read #x100000) ;; 
-  (:2-acceleration-structure-read #x200000) ;; 
-  (:2-acceleration-structure-write #x400000) ;; 
-  (:2-fragment-shading-rate-attachment-read #x800000) ;; 
-  (:2-fragment-density-map-read #x1000000) ;; 
-  (:2-transform-feedback-write #x2000000) ;; 
-  (:2-transform-feedback-counter-read #x4000000) ;; 
-  (:2-transform-feedback-counter-write #x8000000) ;; 
-  (:2-shader-sampled-read #x100000000)
-  (:2-shader-storage-read #x200000000)
-  (:2-shader-storage-write #x400000000)
-  (:2-video-decode-read #x800000000) ;; 
-  (:2-video-decode-write #x1000000000) ;; 
-  (:2-video-encode-read #x2000000000) ;; 
-  (:2-video-encode-write #x4000000000)) ;; 
+  (:none-khr #x0)
+  (:indirect-command-read #x1)
+  (:index-read #x2)
+  (:vertex-attribute-read #x4)
+  (:uniform-read #x8)
+  (:input-attachment-read #x10)
+  (:shader-read #x20)
+  (:shader-write #x40)
+  (:color-attachment-read #x80)
+  (:color-attachment-write #x100)
+  (:depth-stencil-attachment-read #x200)
+  (:depth-stencil-attachment-write #x400)
+  (:transfer-read #x800)
+  (:transfer-write #x1000)
+  (:host-read #x2000)
+  (:host-write #x4000)
+  (:memory-read #x8000)
+  (:memory-write #x10000)
+  (:command-preprocess-read #x20000) ;; 
+  (:command-preprocess-write #x40000) ;; 
+  (:color-attachment-read-noncoherent #x80000) ;; 
+  (:conditional-rendering-read #x100000) ;; 
+  (:acceleration-structure-read #x200000) ;; 
+  (:acceleration-structure-write #x400000) ;; 
+  (:fragment-shading-rate-attachment-read #x800000) ;; 
+  (:fragment-density-map-read #x1000000) ;; 
+  (:transform-feedback-write #x2000000) ;; 
+  (:transform-feedback-counter-read #x4000000) ;; 
+  (:transform-feedback-counter-write #x8000000) ;; 
+  (:shader-sampled-read #x100000000)
+  (:shader-storage-read #x200000000)
+  (:shader-storage-write #x400000000)
+  (:video-decode-read #x800000000) ;; 
+  (:video-decode-write #x1000000000) ;; 
+  (:video-encode-read #x2000000000) ;; 
+  (:video-encode-write #x4000000000) ;; 
+  (:invocation-mask-read #x8000000000)) ;; 
 
 (defbitfield (pipeline-stage-flags-2-khr flags-64)
-  (:2-none-khr #x0)
-  (:2-top-of-pipe #x1)
-  (:2-draw-indirect #x2)
-  (:2-vertex-input #x4)
-  (:2-vertex-shader #x8)
-  (:2-tessellation-control-shader #x10)
-  (:2-tessellation-evaluation-shader #x20)
-  (:2-geometry-shader #x40)
-  (:2-fragment-shader #x80)
-  (:2-early-fragment-tests #x100)
-  (:2-late-fragment-tests #x200)
-  (:2-color-attachment-output #x400)
-  (:2-compute-shader #x800)
-  (:2-all-transfer #x1000)
-  (:2-bottom-of-pipe #x2000)
-  (:2-host #x4000)
-  (:2-all-graphics #x8000)
-  (:2-all-commands #x10000)
-  (:2-command-preprocess #x20000) ;; 
-  (:2-conditional-rendering #x40000) ;; 
-  (:2-task-shader #x80000) ;; 
-  (:2-mesh-shader #x100000) ;; 
-  (:2-ray-tracing-shader #x200000) ;; 
-  (:2-fragment-shading-rate-attachment #x400000) ;; 
-  (:2-fragment-density-process #x800000) ;; 
-  (:2-transform-feedback #x1000000) ;; 
-  (:2-acceleration-structure-build #x2000000) ;; 
-  (:2-video-decode #x4000000) ;; 
-  (:2-video-encode #x8000000) ;; 
-  (:2-copy #x100000000)
-  (:2-resolve #x200000000)
-  (:2-blit #x400000000)
-  (:2-clear #x800000000)
-  (:2-index-input #x1000000000)
-  (:2-vertex-attribute-input #x2000000000)
-  (:2-pre-rasterization-shaders #x4000000000))
+  (:none-khr #x0)
+  (:top-of-pipe #x1)
+  (:draw-indirect #x2)
+  (:vertex-input #x4)
+  (:vertex-shader #x8)
+  (:tessellation-control-shader #x10)
+  (:tessellation-evaluation-shader #x20)
+  (:geometry-shader #x40)
+  (:fragment-shader #x80)
+  (:early-fragment-tests #x100)
+  (:late-fragment-tests #x200)
+  (:color-attachment-output #x400)
+  (:compute-shader #x800)
+  (:all-transfer #x1000)
+  (:bottom-of-pipe #x2000)
+  (:host #x4000)
+  (:all-graphics #x8000)
+  (:all-commands #x10000)
+  (:command-preprocess #x20000) ;; 
+  (:conditional-rendering #x40000) ;; 
+  (:task-shader #x80000) ;; 
+  (:mesh-shader #x100000) ;; 
+  (:ray-tracing-shader #x200000) ;; 
+  (:fragment-shading-rate-attachment #x400000) ;; 
+  (:fragment-density-process #x800000) ;; 
+  (:transform-feedback #x1000000) ;; 
+  (:acceleration-structure-build #x2000000) ;; 
+  (:video-decode #x4000000) ;; 
+  (:video-encode #x8000000) ;; 
+  (:copy #x100000000)
+  (:resolve #x200000000)
+  (:blit #x400000000)
+  (:clear #x800000000)
+  (:index-input #x1000000000)
+  (:vertex-attribute-input #x2000000000)
+  (:pre-rasterization-shaders #x4000000000)
+  (:subpass-shading #x8000000000) ;; 
+  (:invocation-mask #x10000000000)) ;; 
+
+(defbitfield (acceleration-structure-motion-info-flags-nv flags))
+
+(defbitfield (acceleration-structure-motion-instance-flags-nv flags))
+
+(defbitfield (format-feature-flags-2-khr flags-64)
+  (:sampled-image #x1)
+  (:storage-image #x2)
+  (:storage-image-atomic #x4)
+  (:uniform-texel-buffer #x8)
+  (:storage-texel-buffer #x10)
+  (:storage-texel-buffer-atomic #x20)
+  (:vertex-buffer #x40)
+  (:color-attachment #x80)
+  (:color-attachment-blend #x100)
+  (:depth-stencil-attachment #x200)
+  (:blit-src #x400)
+  (:blit-dst #x800)
+  (:sampled-image-filter-linear #x1000)
+  (:sampled-image-filter-cubic #x2000)
+  (:transfer-src #x4000)
+  (:transfer-dst #x8000)
+  (:sampled-image-filter-minmax #x10000)
+  (:midpoint-chroma-samples #x20000)
+  (:sampled-image-ycbcr-conversion-linear-filter #x40000)
+  (:sampled-image-ycbcr-conversion-separate-reconstruction-filter #x80000)
+  (:sampled-image-ycbcr-conversion-chroma-reconstruction-explicit #x100000)
+  (:sampled-image-ycbcr-conversion-chroma-reconstruction-explicit-forceable #x200000)
+  (:disjoint #x400000)
+  (:cosited-chroma-samples #x800000)
+  (:fragment-density-map #x1000000) ;; 
+  (:video-decode-output #x2000000) ;; 
+  (:video-decode-dpb #x4000000) ;; 
+  (:video-encode-input #x8000000) ;; 
+  (:video-encode-dpb #x10000000) ;; 
+  (:acceleration-structure-vertex-buffer #x20000000) ;; 
+  (:fragment-shading-rate-attachment #x40000000) ;; 
+  (:storage-read-without-format #x80000000)
+  (:storage-write-without-format #x100000000)
+  (:sampled-image-depth-comparison #x200000000))
+
+(defbitfield (rendering-flags-khr flags)
+  (:contents-secondary-command-buffers #x1)
+  (:suspending #x2)
+  (:resuming #x4))
 
 (defbitfield (composite-alpha-flags-khr flags)
   (:opaque #x1)
@@ -1526,7 +1767,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defbitfield (direct-fb-surface-create-flags-ext flags))
 
-(defbitfield (i-os-surface-create-flags-mvk flags))
+(defbitfield (ios-surface-create-flags-mvk flags))
 
 (defbitfield (mac-os-surface-create-flags-mvk flags))
 
@@ -1602,7 +1843,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:host-mapped-foreign-memory #x100) ;; 
   (:dma-buf #x200) ;; 
   (:android-hardware-buffer #x400) ;; 
-  (:zircon-vmo #x800)) ;; 
+  (:zircon-vmo #x800) ;; 
+  (:rdma-address #x1000)) ;; 
 
 (defbitfield (external-memory-handle-type-flags-khr flags)
   (:opaque-fd #x1)
@@ -1616,7 +1858,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:host-mapped-foreign-memory #x100) ;; 
   (:dma-buf #x200) ;; 
   (:android-hardware-buffer #x400) ;; 
-  (:zircon-vmo #x800)) ;; 
+  (:zircon-vmo #x800) ;; 
+  (:rdma-address #x1000)) ;; 
 
 (defbitfield (external-memory-feature-flags flags)
   (:dedicated-only #x1)
@@ -1763,13 +2006,23 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defbitfield (submit-flags-khr flags)
   (:protected #x1))
 
+(defbitfield (image-format-constraints-flags-fuchsia flags))
+
+(defbitfield (image-constraints-info-flags-fuchsia flags)
+  (:cpu-read-rarely-fuchsia #x1)
+  (:cpu-read-often-fuchsia #x2)
+  (:cpu-write-rarely-fuchsia #x4)
+  (:cpu-write-often-fuchsia #x8)
+  (:protected-optional-fuchsia #x10))
+
 (defbitfield (video-codec-operation-flags-khr flags)
   (:invalid #x0)
   (:decode-h264 #x1) ;; 
   (:decode-h265 #x2) ;; 
-  (:encode-h264 #x10000)) ;; 
+  (:encode-h264 #x10000) ;; 
+  (:encode-h265 #x20000)) ;; 
 
-(defbitfield (video-capabilities-flags-khr flags)
+(defbitfield (video-capability-flags-khr flags)
   (:protected-content #x1)
   (:separate-reference-images #x2))
 
@@ -1782,7 +2035,6 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defbitfield (video-end-coding-flags-khr flags))
 
 (defbitfield (video-coding-quality-preset-flags-khr flags)
-  (:default #x0)
   (:normal #x1)
   (:power #x2)
   (:quality #x4))
@@ -1795,10 +2047,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:default-khr #x0)
   (:reserved-0 #x1))
 
-(defbitfield (video-decode-h264-field-layout-flags-ext flags)
-  (:vk-video-decode-h264-progressive-pictures-only-ext #x0)
-  (:line-interlaced-plane #x1)
-  (:separate-interlaced-plane #x2))
+(defbitfield (video-decode-h264-picture-layout-flags-ext flags)
+  (:progressive-ext #x0)
+  (:interlaced-interleaved-lines #x1)
+  (:interlaced-separate-planes #x2))
 
 (defbitfield (video-decode-h264-create-flags-ext flags))
 
@@ -1830,18 +2082,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:10 #x4)
   (:12 #x10))
 
-(defbitfield (video-encode-h264-capabilities-flags-ext flags)
-  (:vk-video-encode-h264-capability-cabac #x1)
-  (:vk-video-encode-h264-capability-cavlc #x2)
-  (:vk-video-encode-h264-capability-weighted-bi-pred-implicit #x4)
-  (:vk-video-encode-h264-capability-transform-8x8 #x8)
-  (:vk-video-encode-h264-capability-chroma-qp-offset #x10)
-  (:vk-video-encode-h264-capability-second-chroma-qp-offset #x20)
-  (:vk-video-encode-h264-capability-deblocking-filter-disabled #x40)
-  (:vk-video-encode-h264-capability-deblocking-filter-enabled #x80)
-  (:vk-video-encode-h264-capability-deblocking-filter-partial #x100)
-  (:vk-video-encode-h264-capability-multiple-slice-per-frame #x200)
-  (:vk-video-encode-h264-capability-evenly-distributed-slice-size #x400))
+(defbitfield (video-encode-h264-capability-flags-ext flags)
+  (:cabac #x1)
+  (:cavlc #x2)
+  (:weighted-bi-pred-implicit #x4)
+  (:transform-8x8 #x8)
+  (:chroma-qp-offset #x10)
+  (:second-chroma-qp-offset #x20)
+  (:deblocking-filter-disabled #x40)
+  (:deblocking-filter-enabled #x80)
+  (:deblocking-filter-partial #x100)
+  (:multiple-slice-per-frame #x200)
+  (:evenly-distributed-slice-size #x400))
 
 (defbitfield (video-encode-h264-input-mode-flags-ext flags)
   (:frame #x1)
@@ -1857,15 +2109,36 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:default-ext #x0)
   (:reserved-0 #x1))
 
+(defbitfield (video-encode-h265-capability-flags-ext flags))
+
+(defbitfield (video-encode-h265-input-mode-flags-ext flags)
+  (:frame #x1)
+  (:slice #x2)
+  (:non-vcl #x4))
+
+(defbitfield (video-encode-h265-output-mode-flags-ext flags)
+  (:frame #x1)
+  (:slice #x2)
+  (:non-vcl #x4))
+
+(defbitfield (video-encode-h265-create-flags-ext flags))
+
+(defbitfield (video-encode-h265-ctb-size-flags-ext flags)
+  (:8 #x1)
+  (:16 #x2)
+  (:32 #x4)
+  (:64 #x8))
+
 (defcenum (attachment-load-op)
   (:load #x0)
   (:clear #x1)
-  (:dont-care #x2))
+  (:dont-care #x2)
+  (:none-ext #x3BA0E480)) ;; 
 
 (defcenum (attachment-store-op)
   (:store #x0)
   (:dont-care #x1)
-  (:none-qcom #x3B9F61C8)) ;; 
+  (:none-khr #x3B9F61C8)) ;; 
 
 (defcenum (blend-factor)
   (:zero #x0)
@@ -2463,7 +2736,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:shared-present-khr #x3B9C7B98) ;; 
   (:depth-read-only-stencil-attachment-optimal #x3B9C9308) ;; 
   (:depth-attachment-stencil-read-only-optimal #x3B9C9309) ;; 
-  (:shading-rate-optimal-nv #x3B9D4AA3) ;; 
+  (:fragment-shading-rate-attachment-optimal-khr #x3B9D4AA3) ;; 
   (:fragment-density-map-optimal-ext #x3B9E1D90) ;; 
   (:depth-attachment-optimal #x3B9E7768) ;; 
   (:depth-read-only-optimal #x3B9E7769) ;; 
@@ -2494,14 +2767,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:depth-stencil-attachment #x20) ;; Can be used as framebuffer depth/stencil attachment
   (:transient-attachment #x40) ;; Image data not needed outside of rendering
   (:input-attachment #x80) ;; Can be used as framebuffer input attachment
-  (:shading-rate-image #x100) ;; 
+  (:fragment-shading-rate-attachment #x100) ;; 
   (:fragment-density-map #x200) ;; 
   (:video-decode-dst #x400) ;; 
   (:video-decode-src #x800) ;; 
   (:video-decode-dpb #x1000) ;; 
   (:video-encode-dst #x2000) ;; 
   (:video-encode-src #x4000) ;; 
-  (:video-encode-dpb #x8000)) ;; 
+  (:video-encode-dpb #x8000) ;; 
+  (:invocation-mask #x40000)) ;; 
 
 (defcenum (image-view-create-flag-bits)
   (:ragment-density-map-dynamic #x1) ;; 
@@ -2573,7 +2847,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:conditional-rendering-read #x100000) ;; 
   (:acceleration-structure-read #x200000) ;; 
   (:acceleration-structure-write #x400000) ;; 
-  (:shading-rate-image-read #x800000) ;; 
+  (:fragment-shading-rate-attachment-read #x800000) ;; 
   (:fragment-density-map-read #x1000000) ;; 
   (:transform-feedback-write #x2000000) ;; 
   (:transform-feedback-counter-read #x4000000) ;; 
@@ -2587,7 +2861,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:lazily-allocated #x10) ;; Memory may be allocated by the driver when it is required
   (:protected #x20) ;; 
   (:device-coherent #x40) ;; 
-  (:device-uncached #x80)) ;; 
+  (:device-uncached #x80) ;; 
+  (:rdma-capable #x100)) ;; 
 
 (defcenum (physical-device-type)
   (:other #x0)
@@ -2599,7 +2874,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcenum (pipeline-bind-point)
   (:graphics #x0)
   (:compute #x1)
-  (:ray-tracing-khr #x3B9D4E88)) ;; 
+  (:ray-tracing-khr #x3B9D4E88) ;; 
+  (:subpass-shading-huawei #x3BA06B6B)) ;; 
 
 (defcenum (pipeline-create-flag-bits)
   (:disable-optimization #x1)
@@ -2620,7 +2896,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:ray-tracing-no-null-miss-shaders #x10000) ;; 
   (:ray-tracing-no-null-intersection-shaders #x20000) ;; 
   (:indirect-bindable #x40000) ;; 
-  (:ray-tracing-shader-group-handle-capture-replay #x80000)) ;; 
+  (:ray-tracing-shader-group-handle-capture-replay #x80000) ;; 
+  (:ray-tracing-allow-motion #x100000) ;; 
+  (:rasterization-state-create-fragment-shading-rate-attachment #x200000) ;; 
+  (:rasterization-state-create-fragment-density-map-attachment #x400000)) ;; 
 
 (defcenum (primitive-topology)
   (:point-list #x0)
@@ -2781,6 +3060,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:miss #x800) ;; 
   (:intersection #x1000) ;; 
   (:callable #x2000) ;; 
+  (:subpass-shading #x4000) ;; 
   (:all #x7FFFFFFF))
 
 (defcenum (sparse-memory-bind-flag-bits)
@@ -2893,6 +3173,9 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-transform-feedback-features-ext #x3B9B3760) ;; 
   (:physical-device-transform-feedback-properties-ext #x3B9B3761) ;; 
   (:pipeline-rasterization-state-stream-create-info-ext #x3B9B3762) ;; 
+  (:cu-module-create-info-nvx #x3B9B3B48) ;; 
+  (:cu-function-create-info-nvx #x3B9B3B49) ;; 
+  (:cu-launch-info-nvx #x3B9B3B4A) ;; 
   (:image-view-handle-info-nvx #x3B9B3F30) ;; 
   (:image-view-address-properties-nvx #x3B9B3F31) ;; 
   (:video-encode-h264-capabilities-ext #x3B9B5E70) ;; 
@@ -2904,6 +3187,16 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:video-encode-h264-nalu-slice-ext #x3B9B5E76) ;; 
   (:video-encode-h264-emit-picture-parameters-ext #x3B9B5E77) ;; 
   (:video-encode-h264-profile-ext #x3B9B5E78) ;; 
+  (:video-encode-h265-capabilities-ext #x3B9B6258) ;; 
+  (:video-encode-h265-session-create-info-ext #x3B9B6259) ;; 
+  (:video-encode-h265-session-parameters-create-info-ext #x3B9B625A) ;; 
+  (:video-encode-h265-session-parameters-add-info-ext #x3B9B625B) ;; 
+  (:video-encode-h265-vcl-frame-info-ext #x3B9B625C) ;; 
+  (:video-encode-h265-dpb-slot-info-ext #x3B9B625D) ;; 
+  (:video-encode-h265-nalu-slice-ext #x3B9B625E) ;; 
+  (:video-encode-h265-emit-picture-parameters-ext #x3B9B625F) ;; 
+  (:video-encode-h265-profile-ext #x3B9B6260) ;; 
+  (:video-encode-h265-reference-lists-ext #x3B9B6261) ;; 
   (:video-decode-h264-capabilities-ext #x3B9B6640) ;; 
   (:video-decode-h264-session-create-info-ext #x3B9B6641) ;; 
   (:video-decode-h264-picture-info-ext #x3B9B6642) ;; 
@@ -2913,6 +3206,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:video-decode-h264-session-parameters-add-info-ext #x3B9B6646) ;; 
   (:video-decode-h264-dpb-slot-info-ext #x3B9B6647) ;; 
   (:texture-lod-gather-format-properties-amd #x3B9B6A28) ;; 
+  (:rendering-info-khr #x3B9B75E0) ;; 
+  (:rendering-attachment-info-khr #x3B9B75E1) ;; 
+  (:pipeline-rendering-create-info-khr #x3B9B75E2) ;; 
+  (:physical-device-dynamic-rendering-features-khr #x3B9B75E3) ;; 
+  (:command-buffer-inheritance-rendering-info-khr #x3B9B75E4) ;; 
+  (:rendering-fragment-shading-rate-attachment-info-khr #x3B9B75E6) ;; 
+  (:rendering-fragment-density-map-attachment-info-ext #x3B9B75E7) ;; 
+  (:attachment-sample-count-info-amd #x3B9B75E8) ;; 
+  (:multiview-per-view-attributes-info-nvx #x3B9B75E9) ;; 
   (:stream-descriptor-surface-create-info-ggp #x3B9B8968) ;; 
   (:physical-device-corner-sampled-image-features-nv #x3B9B8D50) ;; 
   (:render-pass-multiview-create-info #x3B9B9908) ;; 
@@ -3058,6 +3360,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:import-android-hardware-buffer-info-android #x3B9CC1EB) ;; 
   (:memory-get-android-hardware-buffer-info-android #x3B9CC1EC) ;; 
   (:external-format-android #x3B9CC1ED) ;; 
+  (:android-hardware-buffer-format-properties-2-android #x3B9CC1EE) ;; 
   (:physical-device-sampler-filter-minmax-properties #x3B9CC5D0) ;; 
   (:sampler-reduction-mode-create-info #x3B9CC5D1) ;; 
   (:physical-device-inline-uniform-block-features-ext #x3B9CE510) ;; 
@@ -3117,6 +3420,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:image-drm-format-modifier-list-create-info-ext #x3B9D3333) ;; 
   (:image-drm-format-modifier-explicit-create-info-ext #x3B9D3334) ;; 
   (:image-drm-format-modifier-properties-ext #x3B9D3335) ;; 
+  (:drm-format-modifier-properties-list-2-ext #x3B9D3336) ;; 
   (:validation-cache-create-info-ext #x3B9D3B00) ;; 
   (:shader-module-validation-cache-create-info-ext #x3B9D3B01) ;; 
   (:descriptor-set-layout-binding-flags-create-info #x3B9D3EE8) ;; 
@@ -3233,6 +3537,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-tool-properties-ext #x3B9E8708) ;; 
   (:image-stencil-usage-create-info #x3B9E8AF0) ;; 
   (:validation-features-ext #x3B9E8ED8) ;; 
+  (:physical-device-present-wait-features-khr #x3B9E92C0) ;; 
   (:physical-device-cooperative-matrix-features-nv #x3B9E96A8) ;; 
   (:cooperative-matrix-properties-nv #x3B9E96A9) ;; 
   (:physical-device-cooperative-matrix-properties-nv #x3B9E96AA) ;; 
@@ -3266,6 +3571,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:pipeline-executable-info-khr #x3B9EE4CB) ;; 
   (:pipeline-executable-statistic-khr #x3B9EE4CC) ;; 
   (:pipeline-executable-internal-representation-khr #x3B9EE4CD) ;; 
+  (:physical-device-shader-atomic-float-2-features-ext #x3B9EF468) ;; 
   (:physical-device-shader-demote-to-helper-invocation-features-ext #x3B9F0020) ;; 
   (:physical-device-device-generated-commands-properties-nv #x3B9F0408) ;; 
   (:graphics-shader-group-create-info-nv #x3B9F0409) ;; 
@@ -3277,6 +3583,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-device-generated-commands-features-nv #x3B9F040F) ;; 
   (:physical-device-inherited-viewport-scissor-features-nv #x3B9F07F0) ;; 
   (:command-buffer-inheritance-viewport-scissor-info-nv #x3B9F07F1) ;; 
+  (:physical-device-shader-integer-dot-product-features-khr #x3B9F0FC0) ;; 
+  (:physical-device-shader-integer-dot-product-properties-khr #x3B9F0FC1) ;; 
   (:physical-device-texel-buffer-alignment-features-ext #x3B9F13A8) ;; 
   (:physical-device-texel-buffer-alignment-properties-ext #x3B9F13A9) ;; 
   (:command-buffer-inheritance-render-pass-transform-info-qcom #x3B9F1790) ;; 
@@ -3290,6 +3598,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-custom-border-color-properties-ext #x3B9F2B19) ;; 
   (:physical-device-custom-border-color-features-ext #x3B9F2B1A) ;; 
   (:pipeline-library-create-info-khr #x3B9F36D0) ;; 
+  (:present-id-khr #x3B9F4670) ;; 
+  (:physical-device-present-id-features-khr #x3B9F4671) ;; 
   (:physical-device-private-data-features-ext #x3B9F4A58) ;; 
   (:device-private-data-create-info-ext #x3B9F4A59) ;; 
   (:private-data-slot-create-info-ext #x3B9F4A5A) ;; 
@@ -3308,10 +3618,14 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-synchronization-2-features-khr #x3B9F9497) ;; 
   (:queue-family-checkpoint-properties-2-nv #x3B9F9498) ;; 
   (:checkpoint-data-2-nv #x3B9F9499) ;; 
+  (:physical-device-shader-subgroup-uniform-control-flow-features-khr #x3B9FB7B8) ;; 
   (:physical-device-zero-initialize-workgroup-memory-features-khr #x3B9FBF88) ;; 
   (:physical-device-fragment-shading-rate-enums-properties-nv #x3B9FC370) ;; 
   (:physical-device-fragment-shading-rate-enums-features-nv #x3B9FC371) ;; 
   (:pipeline-fragment-shading-rate-enum-state-create-info-nv #x3B9FC372) ;; 
+  (:acceleration-structure-geometry-motion-triangles-data-nv #x3B9FC758) ;; 
+  (:physical-device-ray-tracing-motion-blur-features-nv #x3B9FC759) ;; 
+  (:acceleration-structure-motion-info-nv #x3B9FC75A) ;; 
   (:physical-device-ycbcr-2-plane-444-formats-features-ext #x3B9FD310) ;; 
   (:physical-device-fragment-density-map-2-features-ext #x3B9FDAE0) ;; 
   (:physical-device-fragment-density-map-2-properties-ext #x3B9FDAE1) ;; 
@@ -3330,6 +3644,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:buffer-image-copy-2-khr #x3B9FEE71) ;; 
   (:image-resolve-2-khr #x3B9FEE72) ;; 
   (:physical-device-4444-formats-features-ext #x3B9FFA20) ;; 
+  (:physical-device-rgba10x6-formats-features-ext #x3BA009C0) ;; 
   (:directfb-surface-create-info-ext #x3BA01190) ;; 
   (:physical-device-ray-tracing-pipeline-features-khr #x3BA01578) ;; 
   (:physical-device-ray-tracing-pipeline-properties-khr #x3BA01579) ;; 
@@ -3339,15 +3654,45 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:physical-device-vertex-input-dynamic-state-features-ext #x3BA02900) ;; 
   (:vertex-input-binding-description-2-ext #x3BA02901) ;; 
   (:vertex-input-attribute-description-2-ext #x3BA02902) ;; 
+  (:physical-device-drm-properties-ext #x3BA02CE8) ;; 
+  (:physical-device-primitive-topology-list-restart-features-ext #x3BA038A0) ;; 
+  (:format-properties-3-khr #x3BA04840) ;; 
   (:import-memory-zircon-handle-info-fuchsia #x3BA057E0) ;; 
   (:memory-zircon-handle-properties-fuchsia #x3BA057E1) ;; 
   (:memory-get-zircon-handle-info-fuchsia #x3BA057E2) ;; 
   (:import-semaphore-zircon-handle-info-fuchsia #x3BA05BC8) ;; 
   (:semaphore-get-zircon-handle-info-fuchsia #x3BA05BC9) ;; 
+  (:buffer-collection-create-info-fuchsia #x3BA05FB0) ;; 
+  (:import-memory-buffer-collection-fuchsia #x3BA05FB1) ;; 
+  (:buffer-collection-image-create-info-fuchsia #x3BA05FB2) ;; 
+  (:buffer-collection-properties-fuchsia #x3BA05FB3) ;; 
+  (:buffer-constraints-info-fuchsia #x3BA05FB4) ;; 
+  (:buffer-collection-buffer-create-info-fuchsia #x3BA05FB5) ;; 
+  (:image-constraints-info-fuchsia #x3BA05FB6) ;; 
+  (:image-format-constraints-info-fuchsia #x3BA05FB7) ;; 
+  (:sysmem-color-space-fuchsia #x3BA05FB8) ;; 
+  (:buffer-collection-constraints-info-fuchsia #x3BA05FB9) ;; 
+  (:subpass-shading-pipeline-create-info-huawei #x3BA06B68) ;; 
+  (:physical-device-subpass-shading-features-huawei #x3BA06B69) ;; 
+  (:physical-device-subpass-shading-properties-huawei #x3BA06B6A) ;; 
+  (:physical-device-invocation-mask-features-huawei #x3BA06F50) ;; 
+  (:memory-get-remote-address-info-nv #x3BA07338) ;; 
+  (:physical-device-external-memory-rdma-features-nv #x3BA07339) ;; 
   (:physical-device-extended-dynamic-state-2-features-ext #x3BA08AA8) ;; 
   (:screen-surface-create-info-qnx #x3BA08E90) ;; 
   (:physical-device-color-write-enable-features-ext #x3BA09A48) ;; 
-  (:pipeline-color-write-create-info-ext #x3BA09A49)) ;; 
+  (:pipeline-color-write-create-info-ext #x3BA09A49) ;; 
+  (:physical-device-global-priority-query-features-ext #x3BA0B5A0) ;; 
+  (:queue-family-global-priority-properties-ext #x3BA0B5A1) ;; 
+  (:physical-device-multi-draw-features-ext #x3BA0C540) ;; 
+  (:physical-device-multi-draw-properties-ext #x3BA0C541) ;; 
+  (:physical-device-border-color-swizzle-features-ext #x3BA10F78) ;; 
+  (:sampler-border-color-component-mapping-create-info-ext #x3BA10F79) ;; 
+  (:physical-device-pageable-device-local-memory-features-ext #x3BA11360) ;; 
+  (:physical-device-maintenance-4-features-khr #x3BA11748) ;; 
+  (:physical-device-maintenance-4-properties-khr #x3BA11749) ;; 
+  (:device-buffer-memory-requirements-khr #x3BA1174A) ;; 
+  (:device-image-memory-requirements-khr #x3BA1174B)) ;; 
 
 (defcenum (system-allocation-scope)
   (:command #x0)
@@ -3403,7 +3748,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:task-shader #x80000) ;; 
   (:mesh-shader #x100000) ;; 
   (:ray-tracing-shader #x200000) ;; 
-  (:shading-rate-image #x400000) ;; 
+  (:fragment-shading-rate-attachment #x400000) ;; 
   (:fragment-density-process #x800000) ;; 
   (:transform-feedback #x1000000) ;; 
   (:acceleration-structure-build #x2000000)) ;; 
@@ -3469,6 +3814,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:debug-report-callback-ext #x3B9AF4F8) ;; 
   (:video-session-khr #x3B9B23D8) ;; 
   (:video-session-parameters-khr #x3B9B23D9) ;; 
+  (:cu-module-nvx #x3B9B3B48) ;; 
+  (:cu-function-nvx #x3B9B3B49) ;; 
   (:descriptor-update-template #x3B9C1608) ;; 
   (:debug-utils-messenger-ext #x3B9CBE00) ;; 
   (:acceleration-structure-khr #x3B9D13F0) ;; 
@@ -3478,10 +3825,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:performance-configuration-intel #x3B9DFE50) ;; 
   (:deferred-operation-khr #x3B9EE0E0) ;; 
   (:indirect-commands-layout-nv #x3B9F0408) ;; 
-  (:private-data-slot-ext #x3B9F4A58)) ;; 
+  (:private-data-slot-ext #x3B9F4A58) ;; 
+  (:buffer-collection-fuchsia #x3BA05FB0)) ;; 
 
 (defcenum (event-create-flag-bits)
   (:device-only #x1)) ;; 
+
+(defcenum (pipeline-layout-create-flag-bits))
+
+(defcenum (semaphore-create-flag-bits))
 
 (defcenum (indirect-commands-layout-usage-flag-bits-nv)
   (:explicit-preprocess #x1)
@@ -3621,13 +3973,13 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defcenum (geometry-instance-flag-bits-khr)
   (:triangle-facing-cull-disable #x1)
-  (:triangle-front-counterclockwise #x2)
+  (:triangle-flip-facing #x2)
   (:force-opaque #x4)
   (:force-no-opaque #x8))
 
 (defcenum (geometry-instance-flag-bits-nv)
   (:triangle-facing-cull-disable #x1)
-  (:triangle-front-counterclockwise #x2)
+  (:triangle-flip-facing #x2)
   (:force-opaque #x4)
   (:force-no-opaque #x8))
 
@@ -3636,17 +3988,20 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:allow-compaction #x2)
   (:prefer-fast-trace #x4)
   (:prefer-fast-build #x8)
-  (:low-memory #x10))
+  (:low-memory #x10)
+  (:motion #x20)) ;; 
 
 (defcenum (build-acceleration-structure-flag-bits-nv)
   (:allow-update #x1)
   (:allow-compaction #x2)
   (:prefer-fast-trace #x4)
   (:prefer-fast-build #x8)
-  (:low-memory #x10))
+  (:low-memory #x10)
+  (:motion #x20)) ;; 
 
 (defcenum (acceleration-structure-create-flag-bits-khr)
-  (:device-address-capture-replay #x1))
+  (:device-address-capture-replay #x1)
+  (:motion #x4)) ;; 
 
 (defcenum (build-acceleration-structure-mode-khr)
   (:build-khr #x0)
@@ -3847,84 +4202,137 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:enums-nv #x1))
 
 (defcenum (access-flag-bits-2-khr)
-  (:2-none-khr #x0)
-  (:2-indirect-command-read #x1)
-  (:2-index-read #x2)
-  (:2-vertex-attribute-read #x4)
-  (:2-uniform-read #x8)
-  (:2-input-attachment-read #x10)
-  (:2-shader-read #x20)
-  (:2-shader-write #x40)
-  (:2-color-attachment-read #x80)
-  (:2-color-attachment-write #x100)
-  (:2-depth-stencil-attachment-read #x200)
-  (:2-depth-stencil-attachment-write #x400)
-  (:2-transfer-read #x800)
-  (:2-transfer-write #x1000)
-  (:2-host-read #x2000)
-  (:2-host-write #x4000)
-  (:2-memory-read #x8000)
-  (:2-memory-write #x10000)
-  (:2-command-preprocess-read #x20000) ;; 
-  (:2-command-preprocess-write #x40000) ;; 
-  (:2-color-attachment-read-noncoherent #x80000) ;; 
-  (:2-conditional-rendering-read #x100000) ;; 
-  (:2-acceleration-structure-read #x200000) ;; 
-  (:2-acceleration-structure-write #x400000) ;; 
-  (:2-fragment-shading-rate-attachment-read #x800000) ;; 
-  (:2-fragment-density-map-read #x1000000) ;; 
-  (:2-transform-feedback-write #x2000000) ;; 
-  (:2-transform-feedback-counter-read #x4000000) ;; 
-  (:2-transform-feedback-counter-write #x8000000) ;; 
-  (:2-shader-sampled-read #x100000000)
-  (:2-shader-storage-read #x200000000)
-  (:2-shader-storage-write #x400000000)
-  (:2-video-decode-read #x800000000) ;; 
-  (:2-video-decode-write #x1000000000) ;; 
-  (:2-video-encode-read #x2000000000) ;; 
-  (:2-video-encode-write #x4000000000)) ;; 
+  (:none-khr #x0)
+  (:indirect-command-read #x1)
+  (:index-read #x2)
+  (:vertex-attribute-read #x4)
+  (:uniform-read #x8)
+  (:input-attachment-read #x10)
+  (:shader-read #x20)
+  (:shader-write #x40)
+  (:color-attachment-read #x80)
+  (:color-attachment-write #x100)
+  (:depth-stencil-attachment-read #x200)
+  (:depth-stencil-attachment-write #x400)
+  (:transfer-read #x800)
+  (:transfer-write #x1000)
+  (:host-read #x2000)
+  (:host-write #x4000)
+  (:memory-read #x8000)
+  (:memory-write #x10000)
+  (:command-preprocess-read #x20000) ;; 
+  (:command-preprocess-write #x40000) ;; 
+  (:color-attachment-read-noncoherent #x80000) ;; 
+  (:conditional-rendering-read #x100000) ;; 
+  (:acceleration-structure-read #x200000) ;; 
+  (:acceleration-structure-write #x400000) ;; 
+  (:fragment-shading-rate-attachment-read #x800000) ;; 
+  (:fragment-density-map-read #x1000000) ;; 
+  (:transform-feedback-write #x2000000) ;; 
+  (:transform-feedback-counter-read #x4000000) ;; 
+  (:transform-feedback-counter-write #x8000000) ;; 
+  (:shader-sampled-read #x100000000)
+  (:shader-storage-read #x200000000)
+  (:shader-storage-write #x400000000)
+  (:video-decode-read #x800000000) ;; 
+  (:video-decode-write #x1000000000) ;; 
+  (:video-encode-read #x2000000000) ;; 
+  (:video-encode-write #x4000000000) ;; 
+  (:invocation-mask-read #x8000000000)) ;; 
 
 (defcenum (pipeline-stage-flag-bits-2-khr)
-  (:2-none-khr #x0)
-  (:2-top-of-pipe #x1)
-  (:2-draw-indirect #x2)
-  (:2-vertex-input #x4)
-  (:2-vertex-shader #x8)
-  (:2-tessellation-control-shader #x10)
-  (:2-tessellation-evaluation-shader #x20)
-  (:2-geometry-shader #x40)
-  (:2-fragment-shader #x80)
-  (:2-early-fragment-tests #x100)
-  (:2-late-fragment-tests #x200)
-  (:2-color-attachment-output #x400)
-  (:2-compute-shader #x800)
-  (:2-all-transfer #x1000)
-  (:2-bottom-of-pipe #x2000)
-  (:2-host #x4000)
-  (:2-all-graphics #x8000)
-  (:2-all-commands #x10000)
-  (:2-command-preprocess #x20000) ;; 
-  (:2-conditional-rendering #x40000) ;; 
-  (:2-task-shader #x80000) ;; 
-  (:2-mesh-shader #x100000) ;; 
-  (:2-ray-tracing-shader #x200000) ;; 
-  (:2-fragment-shading-rate-attachment #x400000) ;; 
-  (:2-fragment-density-process #x800000) ;; 
-  (:2-transform-feedback #x1000000) ;; 
-  (:2-acceleration-structure-build #x2000000) ;; 
-  (:2-video-decode #x4000000) ;; 
-  (:2-video-encode #x8000000) ;; 
-  (:2-copy #x100000000)
-  (:2-resolve #x200000000)
-  (:2-blit #x400000000)
-  (:2-clear #x800000000)
-  (:2-index-input #x1000000000)
-  (:2-vertex-attribute-input #x2000000000)
-  (:2-pre-rasterization-shaders #x4000000000))
+  (:none-khr #x0)
+  (:top-of-pipe #x1)
+  (:draw-indirect #x2)
+  (:vertex-input #x4)
+  (:vertex-shader #x8)
+  (:tessellation-control-shader #x10)
+  (:tessellation-evaluation-shader #x20)
+  (:geometry-shader #x40)
+  (:fragment-shader #x80)
+  (:early-fragment-tests #x100)
+  (:late-fragment-tests #x200)
+  (:color-attachment-output #x400)
+  (:compute-shader #x800)
+  (:all-transfer #x1000)
+  (:bottom-of-pipe #x2000)
+  (:host #x4000)
+  (:all-graphics #x8000)
+  (:all-commands #x10000)
+  (:command-preprocess #x20000) ;; 
+  (:conditional-rendering #x40000) ;; 
+  (:task-shader #x80000) ;; 
+  (:mesh-shader #x100000) ;; 
+  (:ray-tracing-shader #x200000) ;; 
+  (:fragment-shading-rate-attachment #x400000) ;; 
+  (:fragment-density-process #x800000) ;; 
+  (:transform-feedback #x1000000) ;; 
+  (:acceleration-structure-build #x2000000) ;; 
+  (:video-decode #x4000000) ;; 
+  (:video-encode #x8000000) ;; 
+  (:copy #x100000000)
+  (:resolve #x200000000)
+  (:blit #x400000000)
+  (:clear #x800000000)
+  (:index-input #x1000000000)
+  (:vertex-attribute-input #x2000000000)
+  (:pre-rasterization-shaders #x4000000000)
+  (:subpass-shading #x8000000000) ;; 
+  (:invocation-mask #x10000000000)) ;; 
 
 (defcenum (provoking-vertex-mode-ext)
   (:first-vertex-ext #x0)
   (:last-vertex-ext #x1))
+
+(defcenum (image-format-constraints-flag-bits-fuchsia))
+
+(defcenum (image-constraints-info-flag-bits-fuchsia)
+  (:cpu-read-rarely-fuchsia #x1)
+  (:cpu-read-often-fuchsia #x2)
+  (:cpu-write-rarely-fuchsia #x4)
+  (:cpu-write-often-fuchsia #x8)
+  (:protected-optional-fuchsia #x10))
+
+(defcenum (format-feature-flag-bits-2-khr)
+  (:sampled-image #x1)
+  (:storage-image #x2)
+  (:storage-image-atomic #x4)
+  (:uniform-texel-buffer #x8)
+  (:storage-texel-buffer #x10)
+  (:storage-texel-buffer-atomic #x20)
+  (:vertex-buffer #x40)
+  (:color-attachment #x80)
+  (:color-attachment-blend #x100)
+  (:depth-stencil-attachment #x200)
+  (:blit-src #x400)
+  (:blit-dst #x800)
+  (:sampled-image-filter-linear #x1000)
+  (:sampled-image-filter-cubic #x2000)
+  (:transfer-src #x4000)
+  (:transfer-dst #x8000)
+  (:sampled-image-filter-minmax #x10000)
+  (:midpoint-chroma-samples #x20000)
+  (:sampled-image-ycbcr-conversion-linear-filter #x40000)
+  (:sampled-image-ycbcr-conversion-separate-reconstruction-filter #x80000)
+  (:sampled-image-ycbcr-conversion-chroma-reconstruction-explicit #x100000)
+  (:sampled-image-ycbcr-conversion-chroma-reconstruction-explicit-forceable #x200000)
+  (:disjoint #x400000)
+  (:cosited-chroma-samples #x800000)
+  (:fragment-density-map #x1000000) ;; 
+  (:video-decode-output #x2000000) ;; 
+  (:video-decode-dpb #x4000000) ;; 
+  (:video-encode-input #x8000000) ;; 
+  (:video-encode-dpb #x10000000) ;; 
+  (:acceleration-structure-vertex-buffer #x20000000) ;; 
+  (:fragment-shading-rate-attachment #x40000000) ;; 
+  (:storage-read-without-format #x80000000)
+  (:storage-write-without-format #x100000000)
+  (:sampled-image-depth-comparison #x200000000))
+
+(defcenum (rendering-flag-bits-khr)
+  (:contents-secondary-command-buffers #x1)
+  (:suspending #x2)
+  (:resuming #x4))
 
 (defcenum (color-space-khr)
   (:srgb-nonlinear-khr #x0)
@@ -4015,10 +4423,13 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:display-khr-ext #x1D)
   (:display-mode-khr-ext #x1E)
   (:validation-cache-ext-ext #x21)
+  (:cu-module-nvx-ext #x3B9B3B48) ;; 
+  (:cu-function-nvx-ext #x3B9B3B49) ;; 
   (:descriptor-update-template-ext #x3B9C1608) ;; 
   (:acceleration-structure-khr-ext #x3B9D13F0) ;; 
   (:sampler-ycbcr-conversion-ext #x3B9D2B60) ;; 
-  (:acceleration-structure-nv-ext #x3B9D4E88)) ;; 
+  (:acceleration-structure-nv-ext #x3B9D4E88) ;; 
+  (:buffer-collection-fuchsia-ext #x3BA05FB0)) ;; 
 
 (defcenum (device-memory-report-event-type-ext)
   (:allocate-ext #x0)
@@ -4060,7 +4471,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:api-parameters-ext #x3)
   (:object-lifetimes-ext #x4)
   (:core-checks-ext #x5)
-  (:unique-handles-ext #x6))
+  (:unique-handles-ext #x6)
+  (:shader-validation-cache-ext #x7))
 
 (defcenum (external-memory-handle-type-flag-bits)
   (:opaque-fd #x1)
@@ -4074,7 +4486,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:host-mapped-foreign-memory #x100) ;; 
   (:dma-buf #x200) ;; 
   (:android-hardware-buffer #x400) ;; 
-  (:zircon-vmo #x800)) ;; 
+  (:zircon-vmo #x800) ;; 
+  (:rdma-address #x1000)) ;; 
 
 (defcenum (external-memory-handle-type-flag-bits-khr)
   (:opaque-fd #x1)
@@ -4088,7 +4501,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:host-mapped-foreign-memory #x100) ;; 
   (:dma-buf #x200) ;; 
   (:android-hardware-buffer #x400) ;; 
-  (:zircon-vmo #x800)) ;; 
+  (:zircon-vmo #x800) ;; 
+  (:rdma-address #x1000)) ;; 
 
 (defcenum (external-memory-feature-flag-bits)
   (:dedicated-only #x1)
@@ -4327,7 +4741,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:broadcom-proprietary #xC) ;; Broadcom Inc.
   (:mesa-llvmpipe #xD) ;; Mesa
   (:moltenvk #xE) ;; MoltenVK
-  (:coreavi-proprietary #xF)) ;; Core Avionics & Industrial Inc.
+  (:coreavi-proprietary #xF) ;; Core Avionics & Industrial Inc.
+  (:juice-proprietary #x10) ;; Juice Technologies, Inc.
+  (:verisilicon-proprietary #x11) ;; Verisilicon, Inc.
+  (:mesa-turnip #x12) ;; Mesa open source project
+  (:mesa-v3dv #x13) ;; Mesa open source project
+  (:mesa-panvk #x14)) ;; Mesa open source project
 
 (defcenum (driver-id-khr)
   (:amd-proprietary #x1) ;; Advanced Micro Devices, Inc.
@@ -4344,7 +4763,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:broadcom-proprietary #xC) ;; Broadcom Inc.
   (:mesa-llvmpipe #xD) ;; Mesa
   (:moltenvk #xE) ;; MoltenVK
-  (:coreavi-proprietary #xF)) ;; Core Avionics & Industrial Inc.
+  (:coreavi-proprietary #xF) ;; Core Avionics & Industrial Inc.
+  (:juice-proprietary #x10) ;; Juice Technologies, Inc.
+  (:verisilicon-proprietary #x11) ;; Verisilicon, Inc.
+  (:mesa-turnip #x12) ;; Mesa open source project
+  (:mesa-v3dv #x13) ;; Mesa open source project
+  (:mesa-panvk #x14)) ;; Mesa open source project
 
 (defcenum (shading-rate-palette-entry-nv)
   (:no-invocations-nv #x0)
@@ -4376,7 +4800,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:invalid #x0)
   (:decode-h264 #x1) ;; 
   (:decode-h265 #x2) ;; 
-  (:encode-h264 #x10000)) ;; 
+  (:encode-h264 #x10000) ;; 
+  (:encode-h265 #x20000)) ;; 
 
 (defcenum (video-chroma-subsampling-flag-bits-khr)
   (:invalid #x0)
@@ -4391,7 +4816,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:10 #x4)
   (:12 #x10))
 
-(defcenum (video-capabilities-flag-bits-khr)
+(defcenum (video-capability-flag-bits-khr)
   (:protected-content #x1)
   (:separate-reference-images #x2))
 
@@ -4400,7 +4825,6 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:protected-content #x1))
 
 (defcenum (video-coding-quality-preset-flag-bits-khr)
-  (:default #x0)
   (:normal #x1)
   (:power #x2)
   (:quality #x4))
@@ -4418,10 +4842,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:default-khr #x0)
   (:reserved-0 #x1))
 
-(defcenum (video-decode-h264-field-layout-flag-bits-ext)
-  (:progressive-pictures-only-ext #x0)
-  (:field-layout-line-interlaced-plane #x1)
-  (:field-layout-separate-interlaced-plane #x2))
+(defcenum (video-decode-h264-picture-layout-flag-bits-ext)
+  (:progressive-ext #x0)
+  (:interlaced-interleaved-lines #x1)
+  (:interlaced-separate-planes #x2))
 
 (defcenum (video-encode-flag-bits-khr)
   (:default-khr #x0)
@@ -4436,18 +4860,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (:cbr #x1)
   (:vbr #x2))
 
-(defcenum (video-encode-h264-capabilities-flag-bits-ext)
-  (:y-cabac #x1)
-  (:y-cavlc #x2)
-  (:y-weighted-bi-pred-implicit #x4)
-  (:y-transform-8x8 #x8)
-  (:y-chroma-qp-offset #x10)
-  (:y-second-chroma-qp-offset #x20)
-  (:y-deblocking-filter-disabled #x40)
-  (:y-deblocking-filter-enabled #x80)
-  (:y-deblocking-filter-partial #x100)
-  (:y-multiple-slice-per-frame #x200)
-  (:y-evenly-distributed-slice-size #x400))
+(defcenum (video-encode-h264-capability-flag-bits-ext)
+  (:cabac #x1)
+  (:cavlc #x2)
+  (:weighted-bi-pred-implicit #x4)
+  (:transform-8x8 #x8)
+  (:chroma-qp-offset #x10)
+  (:second-chroma-qp-offset #x20)
+  (:deblocking-filter-disabled #x40)
+  (:deblocking-filter-enabled #x80)
+  (:deblocking-filter-partial #x100)
+  (:multiple-slice-per-frame #x200)
+  (:evenly-distributed-slice-size #x400))
 
 (defcenum (video-encode-h264-input-mode-flag-bits-ext)
   (:frame #x1)
@@ -4462,6 +4886,127 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcenum (video-encode-h264-create-flag-bits-ext)
   (:default-ext #x0)
   (:reserved-0 #x1))
+
+(defcenum (video-encode-h265-input-mode-flag-bits-ext)
+  (:frame #x1)
+  (:slice #x2)
+  (:non-vcl #x4))
+
+(defcenum (video-encode-h265-output-mode-flag-bits-ext)
+  (:frame #x1)
+  (:slice #x2)
+  (:non-vcl #x4))
+
+(defcenum (video-encode-h265-ctb-size-flag-bits-ext)
+  (:8 #x1)
+  (:16 #x2)
+  (:32 #x4)
+  (:64 #x8))
+
+(defcenum (acceleration-structure-motion-instance-type-nv)
+  (:static-nv #x0)
+  (:matrix-motion-nv #x1)
+  (:srt-motion-nv #x2))
+
+(defcenum (descriptor-pool-reset-flag-bits))
+
+(defcenum (pipeline-viewport-state-create-flag-bits))
+
+(defcenum (pipeline-vertex-input-state-create-flag-bits))
+
+(defcenum (pipeline-tessellation-state-create-flag-bits))
+
+(defcenum (pipeline-rasterization-state-create-flag-bits))
+
+(defcenum (pipeline-multisample-state-create-flag-bits))
+
+(defcenum (pipeline-input-assembly-state-create-flag-bits))
+
+(defcenum (pipeline-dynamic-state-create-flag-bits))
+
+(defcenum (pipeline-depth-stencil-state-create-flag-bits))
+
+(defcenum (pipeline-color-blend-state-create-flag-bits))
+
+(defcenum (buffer-view-create-flag-bits))
+
+(defcenum (memory-map-flag-bits))
+
+(defcenum (descriptor-update-template-create-flag-bits))
+
+(defcenum (command-pool-trim-flag-bits))
+
+(defcenum (display-surface-create-flag-bits-khr))
+
+(defcenum (display-mode-create-flag-bits-khr))
+
+(defcenum (xlib-surface-create-flag-bits-khr))
+
+(defcenum (xcb-surface-create-flag-bits-khr))
+
+(defcenum (wayland-surface-create-flag-bits-khr))
+
+(defcenum (android-surface-create-flag-bits-khr))
+
+(defcenum (win32-surface-create-flag-bits-khr))
+
+(defcenum (video-end-coding-flag-bits-khr))
+
+(defcenum (video-begin-coding-flag-bits-khr))
+
+(defcenum (pipeline-rasterization-state-stream-create-flag-bits-ext))
+
+(defcenum (video-encode-h265-create-flag-bits-ext))
+
+(defcenum (video-encode-h265-capability-flag-bits-ext))
+
+(defcenum (video-decode-h264-create-flag-bits-ext))
+
+(defcenum (stream-descriptor-surface-create-flag-bits-ggp))
+
+(defcenum (vi-surface-create-flag-bits-nn))
+
+(defcenum (pipeline-viewport-swizzle-state-create-flag-bits-nv))
+
+(defcenum (pipeline-discard-rectangle-state-create-flag-bits-ext))
+
+(defcenum (pipeline-rasterization-conservative-state-create-flag-bits-ext))
+
+(defcenum (pipeline-rasterization-depth-clip-state-create-flag-bits-ext))
+
+(defcenum (ios-surface-create-flag-bits-mvk))
+
+(defcenum (mac-os-surface-create-flag-bits-mvk))
+
+(defcenum (debug-utils-messenger-create-flag-bits-ext))
+
+(defcenum (debug-utils-messenger-callback-data-flag-bits-ext))
+
+(defcenum (pipeline-coverage-to-color-state-create-flag-bits-nv))
+
+(defcenum (pipeline-coverage-modulation-state-create-flag-bits-nv))
+
+(defcenum (validation-cache-create-flag-bits-ext))
+
+(defcenum (video-decode-h265-create-flag-bits-ext))
+
+(defcenum (image-pipe-surface-create-flag-bits-fuchsia))
+
+(defcenum (metal-surface-create-flag-bits-ext))
+
+(defcenum (pipeline-coverage-reduction-state-create-flag-bits-nv))
+
+(defcenum (headless-surface-create-flag-bits-ext))
+
+(defcenum (device-memory-report-flag-bits-ext))
+
+(defcenum (acceleration-structure-motion-instance-flag-bits-nv))
+
+(defcenum (acceleration-structure-motion-info-flag-bits-nv))
+
+(defcenum (direct-fb-surface-create-flag-bits-ext))
+
+(defcenum (screen-surface-create-flag-bits-qnx))
 
 (defctype pfn-internal-allocation-notification :pointer)
 
@@ -4597,7 +5142,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (max-viewport-dimensions :uint32 :count 2)
   (viewport-bounds-range :float :count 2)
   (viewport-sub-pixel-bits :uint32)
-  (min-memory-map-alignment size-t)
+  (min-memory-map-alignment :size)
   (min-texel-buffer-offset-alignment device-size)
   (min-uniform-buffer-offset-alignment device-size)
   (min-storage-buffer-offset-alignment device-size)
@@ -5047,7 +5592,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (flags shader-module-create-flags)
-  (code-size size-t)
+  (code-size :size)
   (p-code (:pointer :uint32)))
 
 (defcstruct (descriptor-set-layout-binding :class c-descriptor-set-layout-binding)
@@ -5086,12 +5631,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcstruct (specialization-map-entry :class c-specialization-map-entry)
   (constant-id :uint32)
   (offset :uint32)
-  (size size-t))
+  (size :size))
 
 (defcstruct (specialization-info :class c-specialization-info)
   (map-entry-count :uint32)
   (p-map-entries (:pointer (:struct specialization-map-entry)))
-  (data-size size-t)
+  (data-size :size)
   (p-data (:pointer :void)))
 
 (defcstruct (pipeline-shader-stage-create-info :class c-pipeline-shader-stage-create-info)
@@ -5265,8 +5810,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (flags pipeline-cache-create-flags)
-  (initial-data-size size-t)
+  (initial-data-size :size)
   (p-initial-data (:pointer :void)))
+
+(defcstruct (pipeline-cache-header-version-one :class c-pipeline-cache-header-version-one)
+  (header-size :uint32)
+  (header-version pipeline-cache-header-version)
+  (vendor-id :uint32)
+  (device-id :uint32)
+  (pipeline-cache-uuid :uint8 :count 16))
 
 (defcstruct (push-constant-range :class c-push-constant-range)
   (stage-flags shader-stage-flags)
@@ -5457,6 +6009,15 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (y :uint32)
   (z :uint32))
 
+(defcstruct (multi-draw-info-ext :class c-multi-draw-info-ext)
+  (first-vertex :uint32)
+  (vertex-count :uint32))
+
+(defcstruct (multi-draw-indexed-info-ext :class c-multi-draw-indexed-info-ext)
+  (first-index :uint32)
+  (index-count :uint32)
+  (vertex-offset :int32))
+
 (defcstruct (submit-info :class c-submit-info)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -5553,8 +6114,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (flags wayland-surface-create-flags-khr)
-  (display (:pointer (:struct wl_display)))
-  (surface (:pointer (:struct wl_surface))))
+  (display (:pointer wl_display))
+  (surface (:pointer wl_surface)))
 
 (defcstruct (win32-surface-create-info-khr :class c-win32-surface-create-info-khr)
   (s-type structure-type)
@@ -5676,7 +6237,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (object-type debug-report-object-type-ext)
   (object :uint64)
   (tag-name :uint64)
-  (tag-size size-t)
+  (tag-size :size)
   (p-tag (:pointer :void)))
 
 (defcstruct (debug-marker-marker-info-ext :class c-debug-marker-marker-info-ext)
@@ -5772,6 +6333,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (min-sequences-count-buffer-offset-alignment :uint32)
   (min-sequences-index-buffer-offset-alignment :uint32)
   (min-indirect-commands-buffer-offset-alignment :uint32))
+
+(defcstruct (physical-device-multi-draw-properties-ext :class c-physical-device-multi-draw-properties-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (max-multi-draw-count :uint32))
 
 (defcstruct (graphics-shader-group-create-info-nv :class c-graphics-shader-group-create-info-nv)
   (s-type structure-type)
@@ -6649,16 +7215,16 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (dst-array-element :uint32)
   (descriptor-count :uint32)
   (descriptor-type descriptor-type)
-  (offset size-t)
-  (stride size-t))
+  (offset :size)
+  (stride :size))
 
 (defcstruct (descriptor-update-template-entry-khr :class c-descriptor-update-template-entry-khr)
   (dst-binding :uint32)
   (dst-array-element :uint32)
   (descriptor-count :uint32)
   (descriptor-type descriptor-type)
-  (offset size-t)
-  (stride size-t))
+  (offset :size)
+  (stride :size))
 
 (defcstruct (descriptor-update-template-create-info :class c-descriptor-update-template-create-info)
   (s-type structure-type)
@@ -6689,6 +7255,22 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcstruct (x-y-color-ext :class c-x-y-color-ext)
   (x :float)
   (y :float))
+
+(defcstruct (physical-device-present-id-features-khr :class c-physical-device-present-id-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (present-id bool32))
+
+(defcstruct (present-id-khr :class c-present-id-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (swapchain-count :uint32)
+  (p-present-ids (:pointer :uint64)))
+
+(defcstruct (physical-device-present-wait-features-khr :class c-physical-device-present-wait-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (present-wait bool32))
 
 (defcstruct (hdr-metadata-ext :class c-hdr-metadata-ext)
   (s-type structure-type)
@@ -6732,10 +7314,10 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (swapchain-count :uint32)
   (p-times (:pointer (:struct present-time-google))))
 
-(defcstruct (i-os-surface-create-info-mvk :class c-i-os-surface-create-info-mvk)
+(defcstruct (ios-surface-create-info-mvk :class c-ios-surface-create-info-mvk)
   (s-type structure-type)
   (p-next (:pointer :void))
-  (flags i-os-surface-create-flags-mvk)
+  (flags ios-surface-create-flags-mvk)
   (p-view (:pointer :void)))
 
 (defcstruct (mac-os-surface-create-info-mvk :class c-mac-os-surface-create-info-mvk)
@@ -6787,7 +7369,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (discard-rectangle-count :uint32)
   (p-discard-rectangles (:pointer (:struct rect-2d))))
 
-(defcstruct (physical-device-multiview-per-view-attributes-properties-nv-x :class c-physical-device-multiview-per-view-attributes-properties-nv-x)
+(defcstruct (physical-device-multiview-per-view-attributes-properties-nvx :class c-physical-device-multiview-per-view-attributes-properties-nvx)
   (s-type structure-type)
   (p-next (:pointer :void))
   (per-view-position-all-components bool32))
@@ -6904,6 +7486,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (buffer buffer))
 
+(defcstruct (device-buffer-memory-requirements-khr :class c-device-buffer-memory-requirements-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (p-create-info (:pointer (:struct buffer-create-info))))
+
 (defcstruct (image-memory-requirements-info-2 :class c-image-memory-requirements-info-2)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -6923,6 +7510,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (image image))
+
+(defcstruct (device-image-memory-requirements-khr :class c-device-image-memory-requirements-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (p-create-info (:pointer (:struct image-create-info)))
+  (plane-aspect image-aspect-flag-bits))
 
 (defcstruct (memory-requirements-2 :class c-memory-requirements-2)
   (s-type structure-type)
@@ -7191,6 +7784,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (advanced-blend-coherent-operations bool32))
 
+(defcstruct (physical-device-multi-draw-features-ext :class c-physical-device-multi-draw-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (multi-draw bool32))
+
 (defcstruct (physical-device-blend-operation-advanced-properties-ext :class c-physical-device-blend-operation-advanced-properties-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -7259,7 +7857,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (flags validation-cache-create-flags-ext)
-  (initial-data-size size-t)
+  (initial-data-size :size)
   (p-initial-data (:pointer :void)))
 
 (defcstruct (shader-module-validation-cache-create-info-ext :class c-shader-module-validation-cache-create-info-ext)
@@ -7278,6 +7876,16 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (max-per-set-descriptors :uint32)
   (max-memory-allocation-size device-size))
+
+(defcstruct (physical-device-maintenance-4-features-khr :class c-physical-device-maintenance-4-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (maintenance-4 bool32))
+
+(defcstruct (physical-device-maintenance-4-properties-khr :class c-physical-device-maintenance-4-properties-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (max-buffer-size device-size))
 
 (defcstruct (descriptor-set-layout-support :class c-descriptor-set-layout-support)
   (s-type structure-type)
@@ -7373,8 +7981,8 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (num-used-vgprs :uint32)
   (num-used-sgprs :uint32)
   (lds-size-per-local-work-group :uint32)
-  (lds-usage-size-in-bytes size-t)
-  (scratch-mem-usage-in-bytes size-t))
+  (lds-usage-size-in-bytes :size)
+  (scratch-mem-usage-in-bytes :size))
 
 (defcstruct (shader-statistics-info-amd :class c-shader-statistics-info-amd)
   (shader-stage-mask shader-stage-flags)
@@ -7390,6 +7998,17 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (global-priority queue-global-priority-ext))
 
+(defcstruct (physical-device-global-priority-query-features-ext :class c-physical-device-global-priority-query-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (global-priority-query bool32))
+
+(defcstruct (queue-family-global-priority-properties-ext :class c-queue-family-global-priority-properties-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (priority-count :uint32)
+  (priorities queue-global-priority-ext :count 16))
+
 (defcstruct (debug-utils-object-name-info-ext :class c-debug-utils-object-name-info-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -7403,7 +8022,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (object-type object-type)
   (object-handle :uint64)
   (tag-name :uint64)
-  (tag-size size-t)
+  (tag-size :size)
   (p-tag (:pointer :void)))
 
 (defcstruct (debug-utils-label-ext :class c-debug-utils-label-ext)
@@ -8003,6 +8622,22 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (sparse-image-float-32-atomics bool32)
   (sparse-image-float-32-atomic-add bool32))
 
+(defcstruct (physical-device-shader-atomic-float-2-features-ext :class c-physical-device-shader-atomic-float-2-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (shader-buffer-float-16-atomics bool32)
+  (shader-buffer-float-16-atomic-add bool32)
+  (shader-buffer-float-16-atomic-min-max bool32)
+  (shader-buffer-float-32-atomic-min-max bool32)
+  (shader-buffer-float-64-atomic-min-max bool32)
+  (shader-shared-float-16-atomics bool32)
+  (shader-shared-float-16-atomic-add bool32)
+  (shader-shared-float-16-atomic-min-max bool32)
+  (shader-shared-float-32-atomic-min-max bool32)
+  (shader-shared-float-64-atomic-min-max bool32)
+  (shader-image-float-32-atomic-min-max bool32)
+  (sparse-image-float-32-atomic-min-max bool32))
+
 (defcstruct (physical-device-vertex-attribute-divisor-features-ext :class c-physical-device-vertex-attribute-divisor-features-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -8158,6 +8793,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (shading-rate-texel-size (:struct extent-2d))
   (shading-rate-palette-size :uint32)
   (shading-rate-max-coarse-samples :uint32))
+
+(defcstruct (physical-device-invocation-mask-features-huawei :class c-physical-device-invocation-mask-features-huawei)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (invocation-mask bool32))
 
 (defcstruct (coarse-sample-location-nv :class c-coarse-sample-location-nv)
   (pixel-x :uint32)
@@ -8549,6 +9189,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (priority :float))
 
+(defcstruct (physical-device-pageable-device-local-memory-features-ext :class c-physical-device-pageable-device-local-memory-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (pageable-device-local-memory bool32))
+
 (defcstruct (physical-device-buffer-device-address-features :class c-physical-device-buffer-device-address-features)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -8698,14 +9343,14 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (ycbcr-image-arrays bool32))
 
-(defcstruct (image-view-handle-info-nv-x :class c-image-view-handle-info-nv-x)
+(defcstruct (image-view-handle-info-nvx :class c-image-view-handle-info-nvx)
   (s-type structure-type)
   (p-next (:pointer :void))
   (image-view image-view)
   (descriptor-type descriptor-type)
   (sampler sampler))
 
-(defcstruct (image-view-address-properties-nv-x :class c-image-view-address-properties-nv-x)
+(defcstruct (image-view-address-properties-nvx :class c-image-view-address-properties-nvx)
   (s-type structure-type)
   (p-next (:pointer :void))
   (device-address device-address)
@@ -8924,6 +9569,12 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (stencil-layout image-layout))
 
+(defcstruct (physical-device-primitive-topology-list-restart-features-ext :class c-physical-device-primitive-topology-list-restart-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (primitive-topology-list-restart bool32)
+  (primitive-topology-patch-list-restart bool32))
+
 (defcstruct (attachment-description-stencil-layout :class c-attachment-description-stencil-layout)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -8980,7 +9631,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (name :char :count 256)
   (description :char :count 256)
   (is-text bool32)
-  (data-size size-t)
+  (data-size :size)
   (p-data (:pointer :void)))
 
 (defcstruct (physical-device-shader-demote-to-helper-invocation-features-ext :class c-physical-device-shader-demote-to-helper-invocation-features-ext)
@@ -9019,6 +9670,17 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (required-subgroup-size :uint32))
+
+(defcstruct (subpass-shading-pipeline-create-info-huawei :class c-subpass-shading-pipeline-create-info-huawei)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (render-pass render-pass)
+  (subpass :uint32))
+
+(defcstruct (physical-device-subpass-shading-properties-huawei :class c-physical-device-subpass-shading-properties-huawei)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (max-subpass-shading-workgroup-size-aspect-ratio :uint32))
 
 (defcstruct (memory-opaque-capture-address-allocate-info :class c-memory-opaque-capture-address-allocate-info)
   (s-type structure-type)
@@ -9246,6 +9908,18 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (custom-border-colors bool32)
   (custom-border-color-without-format bool32))
 
+(defcstruct (sampler-border-color-component-mapping-create-info-ext :class c-sampler-border-color-component-mapping-create-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (components (:struct component-mapping))
+  (srgb bool32))
+
+(defcstruct (physical-device-border-color-swizzle-features-ext :class c-physical-device-border-color-swizzle-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (border-color-swizzle bool32)
+  (border-color-swizzle-from-image bool32))
+
 (defcunion device-or-host-address-khr
   (device-address device-address)
   (host-address (:pointer :void)))
@@ -9343,18 +10017,14 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 
 (defcstruct (acceleration-structure-instance-khr :class c-acceleration-structure-instance-khr)
   (transform (:struct transform-matrix-khr))
-  (instance-custom-index :uint32)
-  (mask :uint32)
-  (instance-shader-binding-table-record-offset :uint32)
-  (flags geometry-instance-flags-khr)
+  (instance-custom-index-and-mask :uint32)
+  (instance-shader-binding-table-record-offset-and-flags :uint32)
   (acceleration-structure-reference :uint64))
 
 (defcstruct (acceleration-structure-instance-nv :class c-acceleration-structure-instance-nv)
   (transform (:struct transform-matrix-khr))
-  (instance-custom-index :uint32)
-  (mask :uint32)
-  (instance-shader-binding-table-record-offset :uint32)
-  (flags geometry-instance-flags-khr)
+  (instance-custom-index-and-mask :uint32)
+  (instance-shader-binding-table-record-offset-and-flags :uint32)
   (acceleration-structure-reference :uint64))
 
 (defcstruct (acceleration-structure-device-address-info-khr :class c-acceleration-structure-device-address-info-khr)
@@ -9431,6 +10101,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (shader-zero-initialize-workgroup-memory bool32))
 
+(defcstruct (physical-device-shader-subgroup-uniform-control-flow-features-khr :class c-physical-device-shader-subgroup-uniform-control-flow-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (shader-subgroup-uniform-control-flow bool32))
+
 (defcstruct (physical-device-robustness-2-features-ext :class c-physical-device-robustness-2-features-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -9486,6 +10161,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (format-a4r4g4b4 bool32)
   (format-a4b4g4r4 bool32))
+
+(defcstruct (physical-device-subpass-shading-features-huawei :class c-physical-device-subpass-shading-features-huawei)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (subpass-shading bool32))
 
 (defcstruct (buffer-copy-2-khr :class c-buffer-copy-2-khr)
   (s-type structure-type)
@@ -9693,6 +10373,11 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (vertex-input-dynamic-state bool32))
 
+(defcstruct (physical-device-external-memory-r-d-m-a-features-nv :class c-physical-device-external-memory-r-d-m-a-features-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (external-memory-r-d-m-a bool32))
+
 (defcstruct (vertex-input-binding-description-2-ext :class c-vertex-input-binding-description-2-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -9840,7 +10525,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcstruct (video-capabilities-khr :class c-video-capabilities-khr)
   (s-type structure-type)
   (p-next (:pointer :void))
-  (capability-flags video-capabilities-flags-khr)
+  (capability-flags video-capability-flags-khr)
   (min-bitstream-buffer-offset-alignment device-size)
   (min-bitstream-buffer-size-alignment device-size)
   (video-picture-extent-granularity (:struct extent-2d))
@@ -9895,7 +10580,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (std-profile-idc std-video-h264-profile-idc)
-  (field-layout video-decode-h264-field-layout-flags-ext))
+  (picture-layout video-decode-h264-picture-layout-flags-ext))
 
 (defcstruct (video-decode-h264-capabilities-ext :class c-video-decode-h264-capabilities-ext)
   (s-type structure-type)
@@ -10063,7 +10748,7 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
 (defcstruct (video-encode-h264-capabilities-ext :class c-video-encode-h264-capabilities-ext)
   (s-type structure-type)
   (p-next (:pointer :void))
-  (flags video-encode-h264-capabilities-flags-ext)
+  (flags video-encode-h264-capability-flags-ext)
   (input-mode-flags video-encode-h264-input-mode-flags-ext)
   (output-mode-flags video-encode-h264-output-mode-flags-ext)
   (min-picture-size-in-mbs (:struct extent-2d))
@@ -10149,6 +10834,100 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (p-next (:pointer :void))
   (std-profile-idc std-video-h264-profile-idc))
 
+(defcstruct (video-encode-h265-capabilities-ext :class c-video-encode-h265-capabilities-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (flags video-encode-h265-capability-flags-ext)
+  (input-mode-flags video-encode-h265-input-mode-flags-ext)
+  (output-mode-flags video-encode-h265-output-mode-flags-ext)
+  (ctb-sizes video-encode-h265-ctb-size-flags-ext)
+  (input-image-data-alignment (:struct extent-2d))
+  (max-num-l-0-reference-for-p :uint8)
+  (max-num-l-0-reference-for-b :uint8)
+  (max-num-l-1-reference :uint8)
+  (max-num-sub-layers :uint8)
+  (quality-level-count :uint8)
+  (std-extension-version (:struct extension-properties)))
+
+(defcstruct (video-encode-h265-session-create-info-ext :class c-video-encode-h265-session-create-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (flags video-encode-h265-create-flags-ext)
+  (p-std-extension-version (:pointer (:struct extension-properties))))
+
+(defcstruct (video-encode-h265-session-parameters-add-info-ext :class c-video-encode-h265-session-parameters-add-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (vps-std-count :uint32)
+  (p-vps-std (:pointer (:struct std-video-h265-video-parameter-set)))
+  (sps-std-count :uint32)
+  (p-sps-std (:pointer (:struct std-video-h265-sequence-parameter-set)))
+  (pps-std-count :uint32)
+  (p-pps-std (:pointer (:struct std-video-h265-picture-parameter-set))))
+
+(defcstruct (video-encode-h265-session-parameters-create-info-ext :class c-video-encode-h265-session-parameters-create-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (max-vps-std-count :uint32)
+  (max-sps-std-count :uint32)
+  (max-pps-std-count :uint32)
+  (p-parameters-add-info (:pointer
+                          (:struct
+                           video-encode-h265-session-parameters-add-info-ext))))
+
+(defcstruct (video-encode-h265-dpb-slot-info-ext :class c-video-encode-h265-dpb-slot-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (slot-index :int8)
+  (p-std-reference-info (:pointer
+                         (:struct std-video-encode-h265-reference-info))))
+
+(defcstruct (video-encode-h265-reference-lists-ext :class c-video-encode-h265-reference-lists-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (reference-list-0-entry-count :uint8)
+  (p-reference-list-0-entries (:pointer
+                               (:struct video-encode-h265-dpb-slot-info-ext)))
+  (reference-list-1-entry-count :uint8)
+  (p-reference-list-1-entries (:pointer
+                               (:struct video-encode-h265-dpb-slot-info-ext)))
+  (p-reference-modifications (:pointer
+                              (:struct
+                               std-video-encode-h265-reference-modifications))))
+
+(defcstruct (video-encode-h265-nalu-slice-ext :class c-video-encode-h265-nalu-slice-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (ctb-count :uint32)
+  (p-reference-final-lists (:pointer
+                            (:struct video-encode-h265-reference-lists-ext)))
+  (p-slice-header-std (:pointer (:struct std-video-encode-h265-slice-header))))
+
+(defcstruct (video-encode-h265-vcl-frame-info-ext :class c-video-encode-h265-vcl-frame-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (p-reference-final-lists (:pointer
+                            (:struct video-encode-h265-reference-lists-ext)))
+  (nalu-slice-entry-count :uint32)
+  (p-nalu-slice-entries (:pointer (:struct video-encode-h265-nalu-slice-ext)))
+  (p-current-picture-info (:pointer
+                           (:struct std-video-encode-h265-picture-info))))
+
+(defcstruct (video-encode-h265-emit-picture-parameters-ext :class c-video-encode-h265-emit-picture-parameters-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (vps-id :uint8)
+  (sps-id :uint8)
+  (emit-vps-enable bool32)
+  (emit-sps-enable bool32)
+  (pps-id-entry-count :uint32)
+  (pps-id-entries (:pointer :uint8)))
+
+(defcstruct (video-encode-h265-profile-ext :class c-video-encode-h265-profile-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (std-profile-idc std-video-h265-profile-idc))
+
 (defcstruct (physical-device-inherited-viewport-scissor-features-nv :class c-physical-device-inherited-viewport-scissor-features-nv)
   (s-type structure-type)
   (p-next (:pointer :void))
@@ -10182,4 +10961,346 @@ SPDX-License-Identifier: Apache-2.0 OR MIT
   (s-type structure-type)
   (p-next (:pointer :void))
   (provoking-vertex-mode provoking-vertex-mode-ext))
+
+(defcstruct (cu-module-create-info-nvx :class c-cu-module-create-info-nvx)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (data-size :size)
+  (p-data (:pointer :void)))
+
+(defcstruct (cu-function-create-info-nvx :class c-cu-function-create-info-nvx)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (module cu-module-nvx)
+  (p-name :string))
+
+(defcstruct (cu-launch-info-nvx :class c-cu-launch-info-nvx)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (function-handle cu-function-nvx)
+  (grid-dim-x :uint32)
+  (grid-dim-y :uint32)
+  (grid-dim-z :uint32)
+  (block-dim-x :uint32)
+  (block-dim-y :uint32)
+  (block-dim-z :uint32)
+  (shared-mem-bytes :uint32)
+  (param-count :size)
+  (p-params (:pointer (:pointer :void)))
+  (extra-count :size)
+  (p-extras (:pointer (:pointer :void))))
+
+(defcstruct (physical-device-shader-integer-dot-product-features-khr :class c-physical-device-shader-integer-dot-product-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (shader-integer-dot-product bool32))
+
+(defcstruct (physical-device-shader-integer-dot-product-properties-khr :class c-physical-device-shader-integer-dot-product-properties-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (integer-dot-product-8-bit-unsigned-accelerated bool32)
+  (integer-dot-product-8-bit-signed-accelerated bool32)
+  (integer-dot-product-8-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-4x-8-bit-packed-unsigned-accelerated bool32)
+  (integer-dot-product-4x-8-bit-packed-signed-accelerated bool32)
+  (integer-dot-product-4x-8-bit-packed-mixed-signedness-accelerated bool32)
+  (integer-dot-product-16-bit-unsigned-accelerated bool32)
+  (integer-dot-product-16-bit-signed-accelerated bool32)
+  (integer-dot-product-16-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-32-bit-unsigned-accelerated bool32)
+  (integer-dot-product-32-bit-signed-accelerated bool32)
+  (integer-dot-product-32-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-64-bit-unsigned-accelerated bool32)
+  (integer-dot-product-64-bit-signed-accelerated bool32)
+  (integer-dot-product-64-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-8-bit-unsigned-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-8-bit-signed-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-8-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-4x-8-bit-packed-unsigned-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-4x-8-bit-packed-signed-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-4x-8-bit-packed-mixed-signedness-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-16-bit-unsigned-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-16-bit-signed-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-16-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-32-bit-unsigned-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-32-bit-signed-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-32-bit-mixed-signedness-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-64-bit-unsigned-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-64-bit-signed-accelerated bool32)
+  (integer-dot-product-accumulating-saturating-64-bit-mixed-signedness-accelerated bool32))
+
+(defcstruct (physical-device-drm-properties-ext :class c-physical-device-drm-properties-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (has-primary bool32)
+  (has-render bool32)
+  (primary-major :int64)
+  (primary-minor :int64)
+  (render-major :int64)
+  (render-minor :int64))
+
+(defcstruct (physical-device-ray-tracing-motion-blur-features-nv :class c-physical-device-ray-tracing-motion-blur-features-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (ray-tracing-motion-blur bool32)
+  (ray-tracing-motion-blur-pipeline-trace-rays-indirect bool32))
+
+(defcstruct (acceleration-structure-geometry-motion-triangles-data-nv :class c-acceleration-structure-geometry-motion-triangles-data-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (vertex-data (:union device-or-host-address-const-khr)))
+
+(defcstruct (acceleration-structure-motion-info-nv :class c-acceleration-structure-motion-info-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (max-instances :uint32)
+  (flags acceleration-structure-motion-info-flags-nv))
+
+(defcstruct (srt-data-nv :class c-srt-data-nv)
+  (sx :float)
+  (a :float)
+  (b :float)
+  (pvx :float)
+  (sy :float)
+  (c :float)
+  (pvy :float)
+  (sz :float)
+  (pvz :float)
+  (qx :float)
+  (qy :float)
+  (qz :float)
+  (qw :float)
+  (tx :float)
+  (ty :float)
+  (tz :float))
+
+(defcstruct (acceleration-structure-srt-motion-instance-nv :class c-acceleration-structure-srt-motion-instance-nv)
+  (transform-t-0 (:struct srt-data-nv))
+  (transform-t-1 (:struct srt-data-nv))
+  (instance-custom-index-and-mask :uint32)
+  (instance-shader-binding-table-record-offset-and-flags :uint32)
+  (acceleration-structure-reference :uint64))
+
+(defcstruct (acceleration-structure-matrix-motion-instance-nv :class c-acceleration-structure-matrix-motion-instance-nv)
+  (transform-t-0 (:struct transform-matrix-khr))
+  (transform-t-1 (:struct transform-matrix-khr))
+  (instance-custom-index-and-mask :uint32)
+  (instance-shader-binding-table-record-offset-and-flags :uint32)
+  (acceleration-structure-reference :uint64))
+
+(defcunion acceleration-structure-motion-instance-data-nv
+  (static-instance (:struct acceleration-structure-instance-khr))
+  (matrix-motion-instance (:struct
+                           acceleration-structure-matrix-motion-instance-nv))
+  (srt-motion-instance (:struct acceleration-structure-srt-motion-instance-nv)))
+
+(defcstruct (acceleration-structure-motion-instance-nv :class c-acceleration-structure-motion-instance-nv)
+  (type acceleration-structure-motion-instance-type-nv)
+  (flags acceleration-structure-motion-instance-flags-nv)
+  (data (:union acceleration-structure-motion-instance-data-nv)))
+
+(defcstruct (memory-get-remote-address-info-nv :class c-memory-get-remote-address-info-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (memory device-memory)
+  (handle-type external-memory-handle-type-flag-bits))
+
+(defcstruct (import-memory-buffer-collection-fuchsia :class c-import-memory-buffer-collection-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (collection buffer-collection-fuchsia)
+  (index :uint32))
+
+(defcstruct (buffer-collection-image-create-info-fuchsia :class c-buffer-collection-image-create-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (collection buffer-collection-fuchsia)
+  (index :uint32))
+
+(defcstruct (buffer-collection-buffer-create-info-fuchsia :class c-buffer-collection-buffer-create-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (collection buffer-collection-fuchsia)
+  (index :uint32))
+
+(defcstruct (buffer-collection-create-info-fuchsia :class c-buffer-collection-create-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (collection-token zx_handle_t))
+
+(defcstruct (sysmem-color-space-fuchsia :class c-sysmem-color-space-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (color-space :uint32))
+
+(defcstruct (buffer-collection-properties-fuchsia :class c-buffer-collection-properties-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (memory-type-bits :uint32)
+  (buffer-count :uint32)
+  (create-info-index :uint32)
+  (sysmem-pixel-format :uint64)
+  (format-features format-feature-flags)
+  (sysmem-color-space-index (:struct sysmem-color-space-fuchsia))
+  (sampler-ycbcr-conversion-components (:struct component-mapping))
+  (suggested-ycbcr-model sampler-ycbcr-model-conversion)
+  (suggested-ycbcr-range sampler-ycbcr-range)
+  (suggested-x-chroma-offset chroma-location)
+  (suggested-y-chroma-offset chroma-location))
+
+(defcstruct (buffer-collection-constraints-info-fuchsia :class c-buffer-collection-constraints-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (min-buffer-count :uint32)
+  (max-buffer-count :uint32)
+  (min-buffer-count-for-camping :uint32)
+  (min-buffer-count-for-dedicated-slack :uint32)
+  (min-buffer-count-for-shared-slack :uint32))
+
+(defcstruct (buffer-constraints-info-fuchsia :class c-buffer-constraints-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (create-info (:struct buffer-create-info))
+  (required-format-features format-feature-flags)
+  (buffer-collection-constraints (:struct
+                                  buffer-collection-constraints-info-fuchsia)))
+
+(defcstruct (image-format-constraints-info-fuchsia :class c-image-format-constraints-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (image-create-info (:struct image-create-info))
+  (required-format-features format-feature-flags)
+  (flags image-format-constraints-flags-fuchsia)
+  (sysmem-pixel-format :uint64)
+  (color-space-count :uint32)
+  (p-color-spaces (:pointer (:struct sysmem-color-space-fuchsia))))
+
+(defcstruct (image-constraints-info-fuchsia :class c-image-constraints-info-fuchsia)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (format-constraints-count :uint32)
+  (p-format-constraints (:pointer
+                         (:struct image-format-constraints-info-fuchsia)))
+  (buffer-collection-constraints (:struct
+                                  buffer-collection-constraints-info-fuchsia))
+  (flags image-constraints-info-flags-fuchsia))
+
+(defcstruct (physical-device-r-g-b-a-1-0-x-6-formats-features-ext :class c-physical-device-r-g-b-a-1-0-x-6-formats-features-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (format-rgba-1-0x-6-without-y-cb-cr-sampler bool32))
+
+(defcstruct (format-properties-3-khr :class c-format-properties-3-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (linear-tiling-features format-feature-flags-2-khr)
+  (optimal-tiling-features format-feature-flags-2-khr)
+  (buffer-features format-feature-flags-2-khr))
+
+(defcstruct (drm-format-modifier-properties-2-ext :class c-drm-format-modifier-properties-2-ext)
+  (drm-format-modifier :uint64)
+  (drm-format-modifier-plane-count :uint32)
+  (drm-format-modifier-tiling-features format-feature-flags-2-khr))
+
+(defcstruct (drm-format-modifier-properties-list-2-ext :class c-drm-format-modifier-properties-list-2-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (drm-format-modifier-count :uint32)
+  (p-drm-format-modifier-properties (:pointer
+                                     (:struct
+                                      drm-format-modifier-properties-2-ext))))
+
+(defcstruct (android-hardware-buffer-format-properties-2-android :class c-android-hardware-buffer-format-properties-2-android)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (format format)
+  (external-format :uint64)
+  (format-features format-feature-flags-2-khr)
+  (sampler-ycbcr-conversion-components (:struct component-mapping))
+  (suggested-ycbcr-model sampler-ycbcr-model-conversion)
+  (suggested-ycbcr-range sampler-ycbcr-range)
+  (suggested-x-chroma-offset chroma-location)
+  (suggested-y-chroma-offset chroma-location))
+
+(defcstruct (pipeline-rendering-create-info-khr :class c-pipeline-rendering-create-info-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (view-mask :uint32)
+  (color-attachment-count :uint32)
+  (p-color-attachment-formats (:pointer format))
+  (depth-attachment-format format)
+  (stencil-attachment-format format))
+
+(defcstruct (rendering-attachment-info-khr :class c-rendering-attachment-info-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (image-view image-view)
+  (image-layout image-layout)
+  (resolve-mode resolve-mode-flag-bits)
+  (resolve-image-view image-view)
+  (resolve-image-layout image-layout)
+  (load-op attachment-load-op)
+  (store-op attachment-store-op)
+  (clear-value (:union clear-value)))
+
+(defcstruct (rendering-info-khr :class c-rendering-info-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (flags rendering-flags-khr)
+  (render-area (:struct rect-2d))
+  (layer-count :uint32)
+  (view-mask :uint32)
+  (color-attachment-count :uint32)
+  (p-color-attachments (:pointer (:struct rendering-attachment-info-khr)))
+  (p-depth-attachment (:pointer (:struct rendering-attachment-info-khr)))
+  (p-stencil-attachment (:pointer (:struct rendering-attachment-info-khr))))
+
+(defcstruct (rendering-fragment-shading-rate-attachment-info-khr :class c-rendering-fragment-shading-rate-attachment-info-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (image-view image-view)
+  (image-layout image-layout)
+  (shading-rate-attachment-texel-size (:struct extent-2d)))
+
+(defcstruct (rendering-fragment-density-map-attachment-info-ext :class c-rendering-fragment-density-map-attachment-info-ext)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (image-view image-view)
+  (image-layout image-layout))
+
+(defcstruct (physical-device-dynamic-rendering-features-khr :class c-physical-device-dynamic-rendering-features-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (dynamic-rendering bool32))
+
+(defcstruct (command-buffer-inheritance-rendering-info-khr :class c-command-buffer-inheritance-rendering-info-khr)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (flags rendering-flags-khr)
+  (view-mask :uint32)
+  (color-attachment-count :uint32)
+  (p-color-attachment-formats (:pointer format))
+  (depth-attachment-format format)
+  (stencil-attachment-format format)
+  (rasterization-samples sample-count-flag-bits))
+
+(defcstruct (attachment-sample-count-info-amd :class c-attachment-sample-count-info-amd)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (color-attachment-count :uint32)
+  (p-color-attachment-samples (:pointer sample-count-flag-bits))
+  (depth-stencil-attachment-samples sample-count-flag-bits))
+
+(defcstruct (attachment-sample-count-info-nv :class c-attachment-sample-count-info-nv)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (color-attachment-count :uint32)
+  (p-color-attachment-samples (:pointer sample-count-flag-bits))
+  (depth-stencil-attachment-samples sample-count-flag-bits))
+
+(defcstruct (multiview-per-view-attributes-info-nvx :class c-multiview-per-view-attributes-info-nvx)
+  (s-type structure-type)
+  (p-next (:pointer :void))
+  (per-view-attributes bool32)
+  (per-view-attributes-position-x-only bool32))
 
